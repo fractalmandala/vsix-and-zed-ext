@@ -1,0 +1,12 @@
+#
+# zed-svelte
+#
+
+*.wasm
+
+#
+# Rust
+#
+
+/target
+grammars/

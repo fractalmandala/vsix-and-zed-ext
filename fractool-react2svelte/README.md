@@ -21,3 +21,10 @@ npm run compile     # dev build (out/)
 npm run typecheck   # tsc, includes the fractalgpui converter
 npm run package     # production .vsix
 ```
+
+
+## Commands
+
+- Dev: TODO
+- Desktop: TODO
+- Build: TODO

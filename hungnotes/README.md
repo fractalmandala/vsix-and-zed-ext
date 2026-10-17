@@ -19,3 +19,10 @@ A minimalist, raw markdown scratchpad and daily notes extension for VS Code.
 | `hungnotes.notesDirectory` | `""` (defaults to `~/.hungnotes`) | Custom directory path to store markdown notes |
 | `hungnotes.dateFormat` | `"YYYY-MM-DD"` | Date format for new notes (`YYYY-MM-DD` or `YYYY-DD-MM`) |
 | `hungnotes.defaultTemplate` | `"## raw notes\n\n"` | Default markdown template prepended to new notes |
+
+
+## Commands
+
+- Dev: TODO
+- Desktop: TODO
+- Build: TODO

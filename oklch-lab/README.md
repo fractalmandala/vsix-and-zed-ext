@@ -91,3 +91,10 @@ Scaffolded from `../vsix-template`; layout and styling follow `hungnotes` and `f
 ## License
 
 MIT
+
+
+## Commands
+
+- Dev: TODO
+- Desktop: TODO
+- Build: TODO

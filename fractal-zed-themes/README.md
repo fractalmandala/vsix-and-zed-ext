@@ -118,3 +118,10 @@ python3 scripts/gen-tokens.py --source /path/to/zed/crates/settings_content/src/
 Regenerating also refreshes `theme.schema.json`, so editor autocomplete keeps matching the Zed you run.
 
 The list is generated from `crates/settings_content/src/theme.rs` in the Zed release that is actually installed (currently **v1.22.0**), not from the schema published on zed.dev - that one is stale.
+
+
+## Commands
+
+- Dev: TODO
+- Desktop: TODO
+- Build: TODO
