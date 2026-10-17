@@ -1,0 +1,7 @@
+id = "arvecta"
+name = "Arvecta"
+version = "0.0.1"
+schema_version = 1
+authors = ["Fractalmandala"]
+description = "fractalmandalaThemes"
+repository = "https://github.com/your-name/my-zed-extension"

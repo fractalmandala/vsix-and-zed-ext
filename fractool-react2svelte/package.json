@@ -1,0 +1,156 @@
+{
+  "name": "fractool-react2svelte",
+  "displayName": "Fractool React → Svelte",
+  "description": "Convert React (TSX/JSX) components to Svelte 5 with runes, with porting warnings, in the VS Code sidebar",
+  "version": "0.1.0",
+  "publisher": "fractaldesign",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fractalmandala/vsix-and-zed-ext"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other",
+    "Programming Languages"
+  ],
+  "keywords": [
+    "react",
+    "svelte",
+    "convert",
+    "tsx",
+    "jsx"
+  ],
+  "icon": "media/thumbnail.png",
+  "main": "./out/extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "viewsContainers": {
+      "secondarySidebar": [
+        {
+          "id": "fractoolR2s-container",
+          "title": "React → Svelte",
+          "icon": "media/icon.svg"
+        }
+      ]
+    },
+    "views": {
+      "fractoolR2s-container": [
+        {
+          "type": "webview",
+          "id": "fractoolR2s.view",
+          "name": "React → Svelte",
+          "icon": "media/icon.svg"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "fractoolR2s.convertFile",
+        "title": "Convert to Svelte",
+        "category": "React → Svelte"
+      },
+      {
+        "command": "fractoolR2s.copyOutput",
+        "title": "Copy Svelte Output",
+        "category": "React → Svelte",
+        "icon": "$(copy)"
+      },
+      {
+        "command": "fractoolR2s.openOutput",
+        "title": "Open Svelte Output in Editor Tab",
+        "category": "React → Svelte",
+        "icon": "$(go-to-file)"
+      },
+      {
+        "command": "fractoolR2s.saveOutput",
+        "title": "Save as .svelte",
+        "category": "React → Svelte",
+        "icon": "$(save)"
+      },
+      {
+        "command": "fractoolR2s.clear",
+        "title": "Clear",
+        "category": "React → Svelte",
+        "icon": "$(clear-all)"
+      }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "fractoolR2s.convertFile",
+          "when": "resourceExtname =~ /^\\.(tsx|jsx)$/",
+          "group": "7_modification@9"
+        }
+      ],
+      "editor/context": [
+        {
+          "command": "fractoolR2s.convertFile",
+          "when": "resourceExtname =~ /^\\.(tsx|jsx)$/",
+          "group": "1_modification@9"
+        }
+      ],
+      "editor/title/context": [
+        {
+          "command": "fractoolR2s.convertFile",
+          "when": "resourceExtname =~ /^\\.(tsx|jsx)$/",
+          "group": "1_cutcopypaste@9"
+        }
+      ],
+      "commandPalette": [
+        {
+          "command": "fractoolR2s.convertFile",
+          "when": "resourceExtname =~ /^\\.(tsx|jsx)$/"
+        }
+      ],
+      "view/title": [
+        {
+          "command": "fractoolR2s.copyOutput",
+          "when": "view == fractoolR2s.view",
+          "group": "navigation@1"
+        },
+        {
+          "command": "fractoolR2s.openOutput",
+          "when": "view == fractoolR2s.view",
+          "group": "navigation@2"
+        },
+        {
+          "command": "fractoolR2s.saveOutput",
+          "when": "view == fractoolR2s.view",
+          "group": "navigation@3"
+        },
+        {
+          "command": "fractoolR2s.clear",
+          "when": "view == fractoolR2s.view",
+          "group": "navigation@4"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run build",
+    "compile": "node esbuild.js",
+    "watch": "node esbuild.js --watch",
+    "build": "node esbuild.js --production",
+    "typecheck": "tsc --noEmit -p ./",
+    "package": "npx @vscode/vsce package --no-dependencies --skip-license"
+  },
+  "devDependencies": {
+    "@codemirror/lang-javascript": "^6.2.2",
+    "@codemirror/language": "^6.10.0",
+    "@codemirror/state": "^6.4.0",
+    "@codemirror/view": "^6.23.0",
+    "@lezer/highlight": "^1.2.0",
+    "@replit/codemirror-lang-svelte": "^6.0.0",
+    "@types/node": "^20.19.43",
+    "@types/vscode": "^1.80.0",
+    "@vscode/vsce": "^2.24.0",
+    "codemirror": "^6.0.1",
+    "esbuild": "^0.20.0",
+    "typescript": "^5.3.3"
+  }
+}

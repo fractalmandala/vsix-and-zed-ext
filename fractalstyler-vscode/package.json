@@ -1,0 +1,180 @@
+{
+  "name": "fractalstyler-vscode",
+  "displayName": "Fractalstyler VSCode",
+  "description": "Canonical Sass styles viewer and editor in the VS Code sidebar & panel",
+  "version": "0.4.0",
+  "publisher": "Amritanshu Pandey",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fractalmandala/vsix-and-zed-ext"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other",
+    "Programming Languages"
+  ],
+  "icon": "media/icon.png",
+  "main": "./out/extension.js",
+  "activationEvents": [
+    "onStartupFinished",
+    "onLanguage:html",
+    "onLanguage:svelte",
+    "onLanguage:vue",
+    "onLanguage:astro",
+    "onLanguage:javascriptreact",
+    "onLanguage:typescriptreact"
+  ],
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "fractalstyler-container",
+          "title": "FRACTALSTYLER",
+          "icon": "media/icon.svg"
+        }
+      ],
+      "panel": [
+        {
+          "id": "fractalstyler-panel-container",
+          "title": "FRACTALSTYLER",
+          "icon": "media/icon.svg"
+        }
+      ]
+    },
+    "views": {
+      "fractalstyler-container": [
+        {
+          "type": "webview",
+          "id": "fractalstyler.view",
+          "name": "",
+          "icon": "media/icon.svg"
+        }
+      ],
+      "fractalstyler-panel-container": [
+        {
+          "type": "webview",
+          "id": "fractalstyler.panelView",
+          "name": "",
+          "icon": "media/icon.svg"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "fractalstyler.openCurrentInEditor",
+        "title": "Open in Main Editor",
+        "icon": "$(go-to-file)"
+      },
+      {
+        "command": "fractalstyler.focusSearch",
+        "title": "Search Sass Styles",
+        "icon": "$(search)"
+      },
+      {
+        "command": "fractalstyler.pinCurrentFile",
+        "title": "Pin / Unpin Current File",
+        "icon": "$(pin)"
+      },
+      {
+        "command": "fractalstyler.newFile",
+        "title": "New Style File",
+        "icon": "$(add)"
+      },
+      {
+        "command": "fractalstyler.toggleDrawer",
+        "title": "Toggle Files List",
+        "icon": "$(list-unordered)"
+      },
+      {
+        "command": "fractalstyler.pickStylesFolder",
+        "title": "Pick Styles Folder",
+        "icon": "$(folder-opened)"
+      }
+    ],
+    "menus": {
+      "commandPalette": [
+        {
+          "command": "fractalstyler.pickStylesFolder",
+          "when": "true"
+        }
+      ],
+      "view/title": [
+        {
+          "command": "fractalstyler.openCurrentInEditor",
+          "when": "view == fractalstyler.view || view == fractalstyler.panelView",
+          "group": "navigation@1"
+        },
+        {
+          "command": "fractalstyler.focusSearch",
+          "when": "view == fractalstyler.view || view == fractalstyler.panelView",
+          "group": "navigation@2"
+        },
+        {
+          "command": "fractalstyler.newFile",
+          "when": "view == fractalstyler.view || view == fractalstyler.panelView",
+          "group": "navigation@3"
+        },
+        {
+          "command": "fractalstyler.toggleDrawer",
+          "when": "view == fractalstyler.view || view == fractalstyler.panelView",
+          "group": "navigation@4"
+        },
+        {
+          "command": "fractalstyler.pickStylesFolder",
+          "when": "view == fractalstyler.view || view == fractalstyler.panelView",
+          "group": "navigation@5"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "Fractalstyler",
+      "properties": {
+        "fractalstyler.stylesDirectory": {
+          "type": "string",
+          "default": "",
+          "markdownDescription": "Folder containing the fractalstyler Sass files. Leave empty to auto-detect: the extension uses the first of `src/lib/styles`, `node_modules/@fractaldesign/fractalstyler/dist/styles`, `src/styles` or `styles` that exists in the workspace, so fractalstyler itself, an ejected copy, and an app consuming the package all work with no configuration. Relative paths resolve against the workspace root. Use **Fractalstyler: Pick Styles Folder** to set it explicitly."
+        },
+        "fractalstyler.defaultFile": {
+          "type": "string",
+          "default": "_04_layouts.sass",
+          "description": "Default Sass style file to open."
+        },
+        "fractalstyler.pinnedFiles": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": [
+            "_00_tokens.sass",
+            "_04_layouts.sass"
+          ],
+          "description": "Pinned style files appearing as quick tabs at the top of the header."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "sync:registry": "node scripts/sync-registry.mts",
+    "check:registry": "node scripts/sync-registry.mts --check",
+    "vscode:prepublish": "npm run sync:registry && npm run compile",
+    "compile": "tsc -p ./ && node esbuild.mts",
+    "watch": "node esbuild.mts --watch",
+    "build": "node esbuild.mts --production",
+    "package": "npx @vscode/vsce package --no-dependencies"
+  },
+  "devDependencies": {
+    "@codemirror/commands": "^6.3.0",
+    "@codemirror/lang-sass": "^6.0.2",
+    "@codemirror/language": "^6.10.0",
+    "@codemirror/state": "^6.4.0",
+    "@codemirror/view": "^6.23.0",
+    "@types/node": "^20.19.43",
+    "@types/vscode": "^1.80.0",
+    "@vscode/vsce": "^2.24.0",
+    "codemirror": "^6.0.1",
+    "esbuild": "^0.20.0",
+    "typescript": "^5.3.3"
+  }
+}

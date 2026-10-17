@@ -1,0 +1,4889 @@
+[
+  {
+    "class": ".gap-xs",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "gap: var(--space-xs)",
+    "description": "Gap on both axes (flex/grid) at the xs step — rides var(--space-xs) (generated from $gap-families × $steps in _00_config.sass)",
+    "example": "<div class=\"gap-xs\">"
+  },
+  {
+    "class": ".gap-sm",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "gap: var(--space-sm)",
+    "description": "Gap on both axes (flex/grid) at the sm step — rides var(--space-sm) (generated from $gap-families × $steps in _00_config.sass)",
+    "example": "<div class=\"gap-sm\">"
+  },
+  {
+    "class": ".gap-md",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "gap: var(--space-md)",
+    "description": "Gap on both axes (flex/grid) at the md step — rides var(--space-md) (generated from $gap-families × $steps in _00_config.sass)",
+    "example": "<div class=\"gap-md\">"
+  },
+  {
+    "class": ".gap-bs",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "gap: var(--space-bs)",
+    "description": "Gap on both axes (flex/grid) at the bs step — rides var(--space-bs) (generated from $gap-families × $steps in _00_config.sass)",
+    "example": "<div class=\"gap-bs\">"
+  },
+  {
+    "class": ".gap-lg",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "gap: var(--space-lg)",
+    "description": "Gap on both axes (flex/grid) at the lg step — rides var(--space-lg) (generated from $gap-families × $steps in _00_config.sass)",
+    "example": "<div class=\"gap-lg\">"
+  },
+  {
+    "class": ".gap-xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "gap: var(--space-xl)",
+    "description": "Gap on both axes (flex/grid) at the xl step — rides var(--space-xl) (generated from $gap-families × $steps in _00_config.sass)",
+    "example": "<div class=\"gap-xl\">"
+  },
+  {
+    "class": ".gap-2xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "gap: var(--space-2xl)",
+    "description": "Gap on both axes (flex/grid) at the 2xl step — rides var(--space-2xl) (generated from $gap-families × $steps in _00_config.sass)",
+    "example": "<div class=\"gap-2xl\">"
+  },
+  {
+    "class": ".gap-3xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "gap: var(--space-3xl)",
+    "description": "Gap on both axes (flex/grid) at the 3xl step — rides var(--space-3xl) (generated from $gap-families × $steps in _00_config.sass)",
+    "example": "<div class=\"gap-3xl\">"
+  },
+  {
+    "class": ".rgap-xs",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "row-gap: var(--space-xs)",
+    "description": "Row gap (block axis) at the xs step — rides var(--space-xs) (generated from $gap-families × $steps in _00_config.sass)",
+    "example": "<div class=\"rgap-xs\">"
+  },
+  {
+    "class": ".rgap-sm",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "row-gap: var(--space-sm)",
+    "description": "Row gap (block axis) at the sm step — rides var(--space-sm) (generated from $gap-families × $steps in _00_config.sass)",
+    "example": "<div class=\"rgap-sm\">"
+  },
+  {
+    "class": ".rgap-md",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "row-gap: var(--space-md)",
+    "description": "Row gap (block axis) at the md step — rides var(--space-md) (generated from $gap-families × $steps in _00_config.sass)",
+    "example": "<div class=\"rgap-md\">"
+  },
+  {
+    "class": ".rgap-bs",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "row-gap: var(--space-bs)",
+    "description": "Row gap (block axis) at the bs step — rides var(--space-bs) (generated from $gap-families × $steps in _00_config.sass)",
+    "example": "<div class=\"rgap-bs\">"
+  },
+  {
+    "class": ".rgap-lg",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "row-gap: var(--space-lg)",
+    "description": "Row gap (block axis) at the lg step — rides var(--space-lg) (generated from $gap-families × $steps in _00_config.sass)",
+    "example": "<div class=\"rgap-lg\">"
+  },
+  {
+    "class": ".rgap-xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "row-gap: var(--space-xl)",
+    "description": "Row gap (block axis) at the xl step — rides var(--space-xl) (generated from $gap-families × $steps in _00_config.sass)",
+    "example": "<div class=\"rgap-xl\">"
+  },
+  {
+    "class": ".rgap-2xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "row-gap: var(--space-2xl)",
+    "description": "Row gap (block axis) at the 2xl step — rides var(--space-2xl) (generated from $gap-families × $steps in _00_config.sass)",
+    "example": "<div class=\"rgap-2xl\">"
+  },
+  {
+    "class": ".rgap-3xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "row-gap: var(--space-3xl)",
+    "description": "Row gap (block axis) at the 3xl step — rides var(--space-3xl) (generated from $gap-families × $steps in _00_config.sass)",
+    "example": "<div class=\"rgap-3xl\">"
+  },
+  {
+    "class": ".cgap-xs",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "column-gap: var(--space-xs)",
+    "description": "Column gap (inline axis) at the xs step — rides var(--space-xs) (generated from $gap-families × $steps in _00_config.sass)",
+    "example": "<div class=\"cgap-xs\">"
+  },
+  {
+    "class": ".cgap-sm",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "column-gap: var(--space-sm)",
+    "description": "Column gap (inline axis) at the sm step — rides var(--space-sm) (generated from $gap-families × $steps in _00_config.sass)",
+    "example": "<div class=\"cgap-sm\">"
+  },
+  {
+    "class": ".cgap-md",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "column-gap: var(--space-md)",
+    "description": "Column gap (inline axis) at the md step — rides var(--space-md) (generated from $gap-families × $steps in _00_config.sass)",
+    "example": "<div class=\"cgap-md\">"
+  },
+  {
+    "class": ".cgap-bs",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "column-gap: var(--space-bs)",
+    "description": "Column gap (inline axis) at the bs step — rides var(--space-bs) (generated from $gap-families × $steps in _00_config.sass)",
+    "example": "<div class=\"cgap-bs\">"
+  },
+  {
+    "class": ".cgap-lg",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "column-gap: var(--space-lg)",
+    "description": "Column gap (inline axis) at the lg step — rides var(--space-lg) (generated from $gap-families × $steps in _00_config.sass)",
+    "example": "<div class=\"cgap-lg\">"
+  },
+  {
+    "class": ".cgap-xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "column-gap: var(--space-xl)",
+    "description": "Column gap (inline axis) at the xl step — rides var(--space-xl) (generated from $gap-families × $steps in _00_config.sass)",
+    "example": "<div class=\"cgap-xl\">"
+  },
+  {
+    "class": ".cgap-2xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "column-gap: var(--space-2xl)",
+    "description": "Column gap (inline axis) at the 2xl step — rides var(--space-2xl) (generated from $gap-families × $steps in _00_config.sass)",
+    "example": "<div class=\"cgap-2xl\">"
+  },
+  {
+    "class": ".cgap-3xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "column-gap: var(--space-3xl)",
+    "description": "Column gap (inline axis) at the 3xl step — rides var(--space-3xl) (generated from $gap-families × $steps in _00_config.sass)",
+    "example": "<div class=\"cgap-3xl\">"
+  },
+  {
+    "class": ".pad-xs",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding: var(--space-xs)",
+    "description": "Padding, all four sides at the xs step — rides var(--space-xs) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"pad-xs\">"
+  },
+  {
+    "class": ".pad-sm",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding: var(--space-sm)",
+    "description": "Padding, all four sides at the sm step — rides var(--space-sm) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"pad-sm\">"
+  },
+  {
+    "class": ".pad-md",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding: var(--space-md)",
+    "description": "Padding, all four sides at the md step — rides var(--space-md) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"pad-md\">"
+  },
+  {
+    "class": ".pad-bs",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding: var(--space-bs)",
+    "description": "Padding, all four sides at the bs step — rides var(--space-bs) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"pad-bs\">"
+  },
+  {
+    "class": ".pad-lg",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding: var(--space-lg)",
+    "description": "Padding, all four sides at the lg step — rides var(--space-lg) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"pad-lg\">"
+  },
+  {
+    "class": ".pad-xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding: var(--space-xl)",
+    "description": "Padding, all four sides at the xl step — rides var(--space-xl) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"pad-xl\">"
+  },
+  {
+    "class": ".pad-2xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding: var(--space-2xl)",
+    "description": "Padding, all four sides at the 2xl step — rides var(--space-2xl) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"pad-2xl\">"
+  },
+  {
+    "class": ".pad-3xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding: var(--space-3xl)",
+    "description": "Padding, all four sides at the 3xl step — rides var(--space-3xl) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"pad-3xl\">"
+  },
+  {
+    "class": ".px-xs",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-inline: var(--space-xs)",
+    "description": "Inline (horizontal) padding at the xs step — rides var(--space-xs) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"px-xs\">"
+  },
+  {
+    "class": ".px-sm",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-inline: var(--space-sm)",
+    "description": "Inline (horizontal) padding at the sm step — rides var(--space-sm) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"px-sm\">"
+  },
+  {
+    "class": ".px-md",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-inline: var(--space-md)",
+    "description": "Inline (horizontal) padding at the md step — rides var(--space-md) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"px-md\">"
+  },
+  {
+    "class": ".px-bs",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-inline: var(--space-bs)",
+    "description": "Inline (horizontal) padding at the bs step — rides var(--space-bs) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"px-bs\">"
+  },
+  {
+    "class": ".px-lg",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-inline: var(--space-lg)",
+    "description": "Inline (horizontal) padding at the lg step — rides var(--space-lg) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"px-lg\">"
+  },
+  {
+    "class": ".px-xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-inline: var(--space-xl)",
+    "description": "Inline (horizontal) padding at the xl step — rides var(--space-xl) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"px-xl\">"
+  },
+  {
+    "class": ".px-2xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-inline: var(--space-2xl)",
+    "description": "Inline (horizontal) padding at the 2xl step — rides var(--space-2xl) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"px-2xl\">"
+  },
+  {
+    "class": ".px-3xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-inline: var(--space-3xl)",
+    "description": "Inline (horizontal) padding at the 3xl step — rides var(--space-3xl) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"px-3xl\">"
+  },
+  {
+    "class": ".py-xs",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-block: var(--space-xs)",
+    "description": "Block (vertical) padding at the xs step — rides var(--space-xs) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"py-xs\">"
+  },
+  {
+    "class": ".py-sm",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-block: var(--space-sm)",
+    "description": "Block (vertical) padding at the sm step — rides var(--space-sm) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"py-sm\">"
+  },
+  {
+    "class": ".py-md",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-block: var(--space-md)",
+    "description": "Block (vertical) padding at the md step — rides var(--space-md) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"py-md\">"
+  },
+  {
+    "class": ".py-bs",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-block: var(--space-bs)",
+    "description": "Block (vertical) padding at the bs step — rides var(--space-bs) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"py-bs\">"
+  },
+  {
+    "class": ".py-lg",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-block: var(--space-lg)",
+    "description": "Block (vertical) padding at the lg step — rides var(--space-lg) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"py-lg\">"
+  },
+  {
+    "class": ".py-xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-block: var(--space-xl)",
+    "description": "Block (vertical) padding at the xl step — rides var(--space-xl) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"py-xl\">"
+  },
+  {
+    "class": ".py-2xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-block: var(--space-2xl)",
+    "description": "Block (vertical) padding at the 2xl step — rides var(--space-2xl) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"py-2xl\">"
+  },
+  {
+    "class": ".py-3xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-block: var(--space-3xl)",
+    "description": "Block (vertical) padding at the 3xl step — rides var(--space-3xl) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"py-3xl\">"
+  },
+  {
+    "class": ".pt-xs",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-top: var(--space-xs)",
+    "description": "Top padding at the xs step — rides var(--space-xs) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"pt-xs\">"
+  },
+  {
+    "class": ".pt-sm",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-top: var(--space-sm)",
+    "description": "Top padding at the sm step — rides var(--space-sm) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"pt-sm\">"
+  },
+  {
+    "class": ".pt-md",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-top: var(--space-md)",
+    "description": "Top padding at the md step — rides var(--space-md) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"pt-md\">"
+  },
+  {
+    "class": ".pt-bs",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-top: var(--space-bs)",
+    "description": "Top padding at the bs step — rides var(--space-bs) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"pt-bs\">"
+  },
+  {
+    "class": ".pt-lg",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-top: var(--space-lg)",
+    "description": "Top padding at the lg step — rides var(--space-lg) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"pt-lg\">"
+  },
+  {
+    "class": ".pt-xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-top: var(--space-xl)",
+    "description": "Top padding at the xl step — rides var(--space-xl) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"pt-xl\">"
+  },
+  {
+    "class": ".pt-2xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-top: var(--space-2xl)",
+    "description": "Top padding at the 2xl step — rides var(--space-2xl) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"pt-2xl\">"
+  },
+  {
+    "class": ".pt-3xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-top: var(--space-3xl)",
+    "description": "Top padding at the 3xl step — rides var(--space-3xl) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"pt-3xl\">"
+  },
+  {
+    "class": ".pr-xs",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-right: var(--space-xs)",
+    "description": "Right padding at the xs step — rides var(--space-xs) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"pr-xs\">"
+  },
+  {
+    "class": ".pr-sm",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-right: var(--space-sm)",
+    "description": "Right padding at the sm step — rides var(--space-sm) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"pr-sm\">"
+  },
+  {
+    "class": ".pr-md",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-right: var(--space-md)",
+    "description": "Right padding at the md step — rides var(--space-md) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"pr-md\">"
+  },
+  {
+    "class": ".pr-bs",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-right: var(--space-bs)",
+    "description": "Right padding at the bs step — rides var(--space-bs) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"pr-bs\">"
+  },
+  {
+    "class": ".pr-lg",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-right: var(--space-lg)",
+    "description": "Right padding at the lg step — rides var(--space-lg) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"pr-lg\">"
+  },
+  {
+    "class": ".pr-xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-right: var(--space-xl)",
+    "description": "Right padding at the xl step — rides var(--space-xl) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"pr-xl\">"
+  },
+  {
+    "class": ".pr-2xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-right: var(--space-2xl)",
+    "description": "Right padding at the 2xl step — rides var(--space-2xl) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"pr-2xl\">"
+  },
+  {
+    "class": ".pr-3xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-right: var(--space-3xl)",
+    "description": "Right padding at the 3xl step — rides var(--space-3xl) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"pr-3xl\">"
+  },
+  {
+    "class": ".pb-xs",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-bottom: var(--space-xs)",
+    "description": "Bottom padding at the xs step — rides var(--space-xs) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"pb-xs\">"
+  },
+  {
+    "class": ".pb-sm",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-bottom: var(--space-sm)",
+    "description": "Bottom padding at the sm step — rides var(--space-sm) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"pb-sm\">"
+  },
+  {
+    "class": ".pb-md",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-bottom: var(--space-md)",
+    "description": "Bottom padding at the md step — rides var(--space-md) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"pb-md\">"
+  },
+  {
+    "class": ".pb-bs",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-bottom: var(--space-bs)",
+    "description": "Bottom padding at the bs step — rides var(--space-bs) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"pb-bs\">"
+  },
+  {
+    "class": ".pb-lg",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-bottom: var(--space-lg)",
+    "description": "Bottom padding at the lg step — rides var(--space-lg) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"pb-lg\">"
+  },
+  {
+    "class": ".pb-xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-bottom: var(--space-xl)",
+    "description": "Bottom padding at the xl step — rides var(--space-xl) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"pb-xl\">"
+  },
+  {
+    "class": ".pb-2xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-bottom: var(--space-2xl)",
+    "description": "Bottom padding at the 2xl step — rides var(--space-2xl) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"pb-2xl\">"
+  },
+  {
+    "class": ".pb-3xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-bottom: var(--space-3xl)",
+    "description": "Bottom padding at the 3xl step — rides var(--space-3xl) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"pb-3xl\">"
+  },
+  {
+    "class": ".pl-xs",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-left: var(--space-xs)",
+    "description": "Left padding at the xs step — rides var(--space-xs) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"pl-xs\">"
+  },
+  {
+    "class": ".pl-sm",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-left: var(--space-sm)",
+    "description": "Left padding at the sm step — rides var(--space-sm) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"pl-sm\">"
+  },
+  {
+    "class": ".pl-md",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-left: var(--space-md)",
+    "description": "Left padding at the md step — rides var(--space-md) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"pl-md\">"
+  },
+  {
+    "class": ".pl-bs",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-left: var(--space-bs)",
+    "description": "Left padding at the bs step — rides var(--space-bs) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"pl-bs\">"
+  },
+  {
+    "class": ".pl-lg",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-left: var(--space-lg)",
+    "description": "Left padding at the lg step — rides var(--space-lg) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"pl-lg\">"
+  },
+  {
+    "class": ".pl-xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-left: var(--space-xl)",
+    "description": "Left padding at the xl step — rides var(--space-xl) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"pl-xl\">"
+  },
+  {
+    "class": ".pl-2xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-left: var(--space-2xl)",
+    "description": "Left padding at the 2xl step — rides var(--space-2xl) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"pl-2xl\">"
+  },
+  {
+    "class": ".pl-3xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "padding-left: var(--space-3xl)",
+    "description": "Left padding at the 3xl step — rides var(--space-3xl) (generated from $pad-families × $steps in _00_config.sass)",
+    "example": "<div class=\"pl-3xl\">"
+  },
+  {
+    "class": ".mar-xs",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin: var(--space-xs)",
+    "description": "Margin, all four sides at the xs step — rides var(--space-xs) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"mar-xs\">"
+  },
+  {
+    "class": ".mar-sm",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin: var(--space-sm)",
+    "description": "Margin, all four sides at the sm step — rides var(--space-sm) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"mar-sm\">"
+  },
+  {
+    "class": ".mar-md",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin: var(--space-md)",
+    "description": "Margin, all four sides at the md step — rides var(--space-md) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"mar-md\">"
+  },
+  {
+    "class": ".mar-bs",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin: var(--space-bs)",
+    "description": "Margin, all four sides at the bs step — rides var(--space-bs) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"mar-bs\">"
+  },
+  {
+    "class": ".mar-lg",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin: var(--space-lg)",
+    "description": "Margin, all four sides at the lg step — rides var(--space-lg) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"mar-lg\">"
+  },
+  {
+    "class": ".mar-xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin: var(--space-xl)",
+    "description": "Margin, all four sides at the xl step — rides var(--space-xl) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"mar-xl\">"
+  },
+  {
+    "class": ".mar-2xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin: var(--space-2xl)",
+    "description": "Margin, all four sides at the 2xl step — rides var(--space-2xl) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"mar-2xl\">"
+  },
+  {
+    "class": ".mar-3xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin: var(--space-3xl)",
+    "description": "Margin, all four sides at the 3xl step — rides var(--space-3xl) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"mar-3xl\">"
+  },
+  {
+    "class": ".mx-xs",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-inline: var(--space-xs)",
+    "description": "Inline (horizontal) margin at the xs step — rides var(--space-xs) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"mx-xs\">"
+  },
+  {
+    "class": ".mx-sm",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-inline: var(--space-sm)",
+    "description": "Inline (horizontal) margin at the sm step — rides var(--space-sm) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"mx-sm\">"
+  },
+  {
+    "class": ".mx-md",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-inline: var(--space-md)",
+    "description": "Inline (horizontal) margin at the md step — rides var(--space-md) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"mx-md\">"
+  },
+  {
+    "class": ".mx-bs",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-inline: var(--space-bs)",
+    "description": "Inline (horizontal) margin at the bs step — rides var(--space-bs) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"mx-bs\">"
+  },
+  {
+    "class": ".mx-lg",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-inline: var(--space-lg)",
+    "description": "Inline (horizontal) margin at the lg step — rides var(--space-lg) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"mx-lg\">"
+  },
+  {
+    "class": ".mx-xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-inline: var(--space-xl)",
+    "description": "Inline (horizontal) margin at the xl step — rides var(--space-xl) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"mx-xl\">"
+  },
+  {
+    "class": ".mx-2xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-inline: var(--space-2xl)",
+    "description": "Inline (horizontal) margin at the 2xl step — rides var(--space-2xl) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"mx-2xl\">"
+  },
+  {
+    "class": ".mx-3xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-inline: var(--space-3xl)",
+    "description": "Inline (horizontal) margin at the 3xl step — rides var(--space-3xl) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"mx-3xl\">"
+  },
+  {
+    "class": ".my-xs",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-block: var(--space-xs)",
+    "description": "Block (vertical) margin at the xs step — rides var(--space-xs) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"my-xs\">"
+  },
+  {
+    "class": ".my-sm",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-block: var(--space-sm)",
+    "description": "Block (vertical) margin at the sm step — rides var(--space-sm) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"my-sm\">"
+  },
+  {
+    "class": ".my-md",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-block: var(--space-md)",
+    "description": "Block (vertical) margin at the md step — rides var(--space-md) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"my-md\">"
+  },
+  {
+    "class": ".my-bs",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-block: var(--space-bs)",
+    "description": "Block (vertical) margin at the bs step — rides var(--space-bs) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"my-bs\">"
+  },
+  {
+    "class": ".my-lg",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-block: var(--space-lg)",
+    "description": "Block (vertical) margin at the lg step — rides var(--space-lg) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"my-lg\">"
+  },
+  {
+    "class": ".my-xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-block: var(--space-xl)",
+    "description": "Block (vertical) margin at the xl step — rides var(--space-xl) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"my-xl\">"
+  },
+  {
+    "class": ".my-2xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-block: var(--space-2xl)",
+    "description": "Block (vertical) margin at the 2xl step — rides var(--space-2xl) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"my-2xl\">"
+  },
+  {
+    "class": ".my-3xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-block: var(--space-3xl)",
+    "description": "Block (vertical) margin at the 3xl step — rides var(--space-3xl) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"my-3xl\">"
+  },
+  {
+    "class": ".mt-xs",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-top: var(--space-xs)",
+    "description": "Top margin at the xs step — rides var(--space-xs) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"mt-xs\">"
+  },
+  {
+    "class": ".mt-sm",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-top: var(--space-sm)",
+    "description": "Top margin at the sm step — rides var(--space-sm) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"mt-sm\">"
+  },
+  {
+    "class": ".mt-md",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-top: var(--space-md)",
+    "description": "Top margin at the md step — rides var(--space-md) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"mt-md\">"
+  },
+  {
+    "class": ".mt-bs",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-top: var(--space-bs)",
+    "description": "Top margin at the bs step — rides var(--space-bs) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"mt-bs\">"
+  },
+  {
+    "class": ".mt-lg",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-top: var(--space-lg)",
+    "description": "Top margin at the lg step — rides var(--space-lg) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"mt-lg\">"
+  },
+  {
+    "class": ".mt-xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-top: var(--space-xl)",
+    "description": "Top margin at the xl step — rides var(--space-xl) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"mt-xl\">"
+  },
+  {
+    "class": ".mt-2xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-top: var(--space-2xl)",
+    "description": "Top margin at the 2xl step — rides var(--space-2xl) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"mt-2xl\">"
+  },
+  {
+    "class": ".mt-3xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-top: var(--space-3xl)",
+    "description": "Top margin at the 3xl step — rides var(--space-3xl) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"mt-3xl\">"
+  },
+  {
+    "class": ".mr-xs",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-right: var(--space-xs)",
+    "description": "Right margin at the xs step — rides var(--space-xs) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"mr-xs\">"
+  },
+  {
+    "class": ".mr-sm",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-right: var(--space-sm)",
+    "description": "Right margin at the sm step — rides var(--space-sm) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"mr-sm\">"
+  },
+  {
+    "class": ".mr-md",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-right: var(--space-md)",
+    "description": "Right margin at the md step — rides var(--space-md) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"mr-md\">"
+  },
+  {
+    "class": ".mr-bs",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-right: var(--space-bs)",
+    "description": "Right margin at the bs step — rides var(--space-bs) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"mr-bs\">"
+  },
+  {
+    "class": ".mr-lg",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-right: var(--space-lg)",
+    "description": "Right margin at the lg step — rides var(--space-lg) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"mr-lg\">"
+  },
+  {
+    "class": ".mr-xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-right: var(--space-xl)",
+    "description": "Right margin at the xl step — rides var(--space-xl) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"mr-xl\">"
+  },
+  {
+    "class": ".mr-2xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-right: var(--space-2xl)",
+    "description": "Right margin at the 2xl step — rides var(--space-2xl) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"mr-2xl\">"
+  },
+  {
+    "class": ".mr-3xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-right: var(--space-3xl)",
+    "description": "Right margin at the 3xl step — rides var(--space-3xl) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"mr-3xl\">"
+  },
+  {
+    "class": ".mb-xs",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-bottom: var(--space-xs)",
+    "description": "Bottom margin at the xs step — rides var(--space-xs) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"mb-xs\">"
+  },
+  {
+    "class": ".mb-sm",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-bottom: var(--space-sm)",
+    "description": "Bottom margin at the sm step — rides var(--space-sm) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"mb-sm\">"
+  },
+  {
+    "class": ".mb-md",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-bottom: var(--space-md)",
+    "description": "Bottom margin at the md step — rides var(--space-md) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"mb-md\">"
+  },
+  {
+    "class": ".mb-bs",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-bottom: var(--space-bs)",
+    "description": "Bottom margin at the bs step — rides var(--space-bs) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"mb-bs\">"
+  },
+  {
+    "class": ".mb-lg",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-bottom: var(--space-lg)",
+    "description": "Bottom margin at the lg step — rides var(--space-lg) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"mb-lg\">"
+  },
+  {
+    "class": ".mb-xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-bottom: var(--space-xl)",
+    "description": "Bottom margin at the xl step — rides var(--space-xl) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"mb-xl\">"
+  },
+  {
+    "class": ".mb-2xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-bottom: var(--space-2xl)",
+    "description": "Bottom margin at the 2xl step — rides var(--space-2xl) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"mb-2xl\">"
+  },
+  {
+    "class": ".mb-3xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-bottom: var(--space-3xl)",
+    "description": "Bottom margin at the 3xl step — rides var(--space-3xl) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"mb-3xl\">"
+  },
+  {
+    "class": ".ml-xs",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-left: var(--space-xs)",
+    "description": "Left margin at the xs step — rides var(--space-xs) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"ml-xs\">"
+  },
+  {
+    "class": ".ml-sm",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-left: var(--space-sm)",
+    "description": "Left margin at the sm step — rides var(--space-sm) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"ml-sm\">"
+  },
+  {
+    "class": ".ml-md",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-left: var(--space-md)",
+    "description": "Left margin at the md step — rides var(--space-md) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"ml-md\">"
+  },
+  {
+    "class": ".ml-bs",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-left: var(--space-bs)",
+    "description": "Left margin at the bs step — rides var(--space-bs) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"ml-bs\">"
+  },
+  {
+    "class": ".ml-lg",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-left: var(--space-lg)",
+    "description": "Left margin at the lg step — rides var(--space-lg) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"ml-lg\">"
+  },
+  {
+    "class": ".ml-xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-left: var(--space-xl)",
+    "description": "Left margin at the xl step — rides var(--space-xl) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"ml-xl\">"
+  },
+  {
+    "class": ".ml-2xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-left: var(--space-2xl)",
+    "description": "Left margin at the 2xl step — rides var(--space-2xl) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"ml-2xl\">"
+  },
+  {
+    "class": ".ml-3xl",
+    "kind": "family",
+    "layer": "L1",
+    "file": "_02_dimensions.sass",
+    "property": "margin-left: var(--space-3xl)",
+    "description": "Left margin at the 3xl step — rides var(--space-3xl) (generated from $mar-families × $steps in _00_config.sass)",
+    "example": "<div class=\"ml-3xl\">"
+  },
+  {
+    "class": ".frame-16-9",
+    "kind": "family",
+    "layer": "L3",
+    "file": "_05_layouts.sass",
+    "property": "aspect-ratio: 16 / 9; overflow: hidden",
+    "description": "Aspect-ratio media frame (16/9) — img/video/iframe/svg fill and cover (generated from $frame-ratios in _00_config.sass)",
+    "example": "<div class=\"frame-16-9\"><img …></div>"
+  },
+  {
+    "class": ".frame-9-16",
+    "kind": "family",
+    "layer": "L3",
+    "file": "_05_layouts.sass",
+    "property": "aspect-ratio: 9 / 16; overflow: hidden",
+    "description": "Aspect-ratio media frame (9/16) — img/video/iframe/svg fill and cover (generated from $frame-ratios in _00_config.sass)",
+    "example": "<div class=\"frame-9-16\"><img …></div>"
+  },
+  {
+    "class": ".frame-4-3",
+    "kind": "family",
+    "layer": "L3",
+    "file": "_05_layouts.sass",
+    "property": "aspect-ratio: 4 / 3; overflow: hidden",
+    "description": "Aspect-ratio media frame (4/3) — img/video/iframe/svg fill and cover (generated from $frame-ratios in _00_config.sass)",
+    "example": "<div class=\"frame-4-3\"><img …></div>"
+  },
+  {
+    "class": ".frame-3-4",
+    "kind": "family",
+    "layer": "L3",
+    "file": "_05_layouts.sass",
+    "property": "aspect-ratio: 3 / 4; overflow: hidden",
+    "description": "Aspect-ratio media frame (3/4) — img/video/iframe/svg fill and cover (generated from $frame-ratios in _00_config.sass)",
+    "example": "<div class=\"frame-3-4\"><img …></div>"
+  },
+  {
+    "class": ".frame-3-2",
+    "kind": "family",
+    "layer": "L3",
+    "file": "_05_layouts.sass",
+    "property": "aspect-ratio: 3 / 2; overflow: hidden",
+    "description": "Aspect-ratio media frame (3/2) — img/video/iframe/svg fill and cover (generated from $frame-ratios in _00_config.sass)",
+    "example": "<div class=\"frame-3-2\"><img …></div>"
+  },
+  {
+    "class": ".frame-2-3",
+    "kind": "family",
+    "layer": "L3",
+    "file": "_05_layouts.sass",
+    "property": "aspect-ratio: 2 / 3; overflow: hidden",
+    "description": "Aspect-ratio media frame (2/3) — img/video/iframe/svg fill and cover (generated from $frame-ratios in _00_config.sass)",
+    "example": "<div class=\"frame-2-3\"><img …></div>"
+  },
+  {
+    "class": ".frame-1-1",
+    "kind": "family",
+    "layer": "L3",
+    "file": "_05_layouts.sass",
+    "property": "aspect-ratio: 1 / 1; overflow: hidden",
+    "description": "Aspect-ratio media frame (1/1) — img/video/iframe/svg fill and cover (generated from $frame-ratios in _00_config.sass)",
+    "example": "<div class=\"frame-1-1\"><img …></div>"
+  },
+  {
+    "class": ".bdr",
+    "kind": "class",
+    "parent": null,
+    "file": "_01_base.sass",
+    "layer": "L0",
+    "property": "border: 1px solid red",
+    "description": "debug class",
+    "example": "<div class=\"bdr\">…</div>"
+  },
+  {
+    "class": ".mode-wipe",
+    "kind": "class",
+    "parent": null,
+    "file": "_01_base.sass",
+    "layer": "L0",
+    "property": "animation: none",
+    "description": "On <html>: disables view-transition animations while a color-mode wipe runs",
+    "example": "<div class=\"mode-wipe\">…</div>"
+  },
+  {
+    "class": ".radius-xs",
+    "kind": "class",
+    "parent": null,
+    "file": "_02_dimensions.sass",
+    "layer": "L1",
+    "property": "border-radius: var(--radius-xs)",
+    "description": "border-radius: var(--radius-xs)",
+    "example": "<div class=\"radius-xs\">…</div>"
+  },
+  {
+    "class": ".radius-sm",
+    "kind": "class",
+    "parent": null,
+    "file": "_02_dimensions.sass",
+    "layer": "L1",
+    "property": "border-radius: var(--radius-sm)",
+    "description": "border-radius: var(--radius-sm)",
+    "example": "<div class=\"radius-sm\">…</div>"
+  },
+  {
+    "class": ".radius-md",
+    "kind": "class",
+    "parent": null,
+    "file": "_02_dimensions.sass",
+    "layer": "L1",
+    "property": "border-radius: var(--radius-md)",
+    "description": "border-radius: var(--radius-md)",
+    "example": "<div class=\"radius-md\">…</div>"
+  },
+  {
+    "class": ".radius-bs",
+    "kind": "class",
+    "parent": null,
+    "file": "_02_dimensions.sass",
+    "layer": "L1",
+    "property": "border-radius: var(--radius-bs)",
+    "description": "border-radius: var(--radius-bs)",
+    "example": "<div class=\"radius-bs\">…</div>"
+  },
+  {
+    "class": ".radius-lg",
+    "kind": "class",
+    "parent": null,
+    "file": "_02_dimensions.sass",
+    "layer": "L1",
+    "property": "border-radius: var(--radius-lg)",
+    "description": "border-radius: var(--radius-lg)",
+    "example": "<div class=\"radius-lg\">…</div>"
+  },
+  {
+    "class": ".radius-full",
+    "kind": "class",
+    "parent": null,
+    "file": "_02_dimensions.sass",
+    "layer": "L1",
+    "property": "border-radius: var(--radius-full)",
+    "description": "border-radius: var(--radius-full)",
+    "example": "<div class=\"radius-full\">…</div>"
+  },
+  {
+    "class": ".wfull",
+    "kind": "class",
+    "parent": null,
+    "file": "_02_dimensions.sass",
+    "layer": "L1",
+    "property": "width: 100%",
+    "description": "Full width (100%)",
+    "example": "<div class=\"wfull\">…</div>"
+  },
+  {
+    "class": ".hfull",
+    "kind": "class",
+    "parent": null,
+    "file": "_02_dimensions.sass",
+    "layer": "L1",
+    "property": "height: 100%",
+    "description": "Full height (100%)",
+    "example": "<div class=\"hfull\">…</div>"
+  },
+  {
+    "class": ".full",
+    "kind": "class",
+    "parent": null,
+    "file": "_02_dimensions.sass",
+    "layer": "L1",
+    "property": "width: 100%; height: 100%",
+    "description": "Full width and height (100% both axes)",
+    "example": "<div class=\"full\">…</div>"
+  },
+  {
+    "class": ".minw0",
+    "kind": "class",
+    "parent": null,
+    "file": "_02_dimensions.sass",
+    "layer": "L1",
+    "property": "min-width: 0",
+    "description": "Zero min-width — lets a flex child shrink below its content",
+    "example": "<div class=\"minw0\">…</div>"
+  },
+  {
+    "class": ".minh0",
+    "kind": "class",
+    "parent": null,
+    "file": "_02_dimensions.sass",
+    "layer": "L1",
+    "property": "min-height: 0",
+    "description": "Zero min-height — lets a flex child shrink below its content",
+    "example": "<div class=\"minh0\">…</div>"
+  },
+  {
+    "class": ".min0",
+    "kind": "class",
+    "parent": null,
+    "file": "_02_dimensions.sass",
+    "layer": "L1",
+    "property": "min-width: 0; min-height: 0",
+    "description": "Zero min-width and min-height — prevents flex blowouts",
+    "example": "<div class=\"min0\">…</div>"
+  },
+  {
+    "class": ".h-sm",
+    "kind": "class",
+    "parent": null,
+    "file": "_02_dimensions.sass",
+    "layer": "L1",
+    "property": "height: var(--height-sm)",
+    "description": "Control height step sm (var(--height-sm))",
+    "example": "<div class=\"h-sm\">…</div>"
+  },
+  {
+    "class": ".h-md",
+    "kind": "class",
+    "parent": null,
+    "file": "_02_dimensions.sass",
+    "layer": "L1",
+    "property": "height: var(--height-md)",
+    "description": "Control height step md (var(--height-md))",
+    "example": "<div class=\"h-md\">…</div>"
+  },
+  {
+    "class": ".h-bs",
+    "kind": "class",
+    "parent": null,
+    "file": "_02_dimensions.sass",
+    "layer": "L1",
+    "property": "height: var(--height-bs)",
+    "description": "Control height step bs (var(--height-bs))",
+    "example": "<div class=\"h-bs\">…</div>"
+  },
+  {
+    "class": ".h-lg",
+    "kind": "class",
+    "parent": null,
+    "file": "_02_dimensions.sass",
+    "layer": "L1",
+    "property": "height: var(--height-lg)",
+    "description": "Control height step lg (var(--height-lg))",
+    "example": "<div class=\"h-lg\">…</div>"
+  },
+  {
+    "class": ".hfull-vh",
+    "kind": "class",
+    "parent": null,
+    "file": "_02_dimensions.sass",
+    "layer": "L1",
+    "property": "min-height: 100vh",
+    "description": "Viewport heights",
+    "example": "<div class=\"hfull-vh\">…</div>"
+  },
+  {
+    "class": ".hfull-vh-fitted",
+    "kind": "class",
+    "parent": null,
+    "file": "_02_dimensions.sass",
+    "layer": "L1",
+    "property": "min-height: calc(100vh - var(--fit-height))",
+    "description": "Viewport height fitted between header and footer (var(--fit-height))",
+    "example": "<div class=\"hfull-vh-fitted\">…</div>"
+  },
+  {
+    "class": ".text-xs",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "font-size: var(--text-xs)",
+    "description": "primitives - they are simply class versions of the text tokens defined in tokens file",
+    "example": "<div class=\"text-xs\">…</div>"
+  },
+  {
+    "class": ".text-sm",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "font-size: var(--text-sm)",
+    "description": "font-size: var(--text-sm)",
+    "example": "<div class=\"text-sm\">…</div>"
+  },
+  {
+    "class": ".text-md",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "font-size: var(--text-md)",
+    "description": "font-size: var(--text-md)",
+    "example": "<div class=\"text-md\">…</div>"
+  },
+  {
+    "class": ".text-bs",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "font-size: var(--text-bs)",
+    "description": "font-size: var(--text-bs)",
+    "example": "<div class=\"text-bs\">…</div>"
+  },
+  {
+    "class": ".text-lg",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "font-size: var(--text-lg)",
+    "description": "font-size: var(--text-lg)",
+    "example": "<div class=\"text-lg\">…</div>"
+  },
+  {
+    "class": ".text-xl",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "font-size: var(--text-xl)",
+    "description": "font-size: var(--text-xl)",
+    "example": "<div class=\"text-xl\">…</div>"
+  },
+  {
+    "class": ".text-2xl",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "font-size: var(--text-2xl)",
+    "description": "font-size: var(--text-2xl)",
+    "example": "<div class=\"text-2xl\">…</div>"
+  },
+  {
+    "class": ".text-3xl",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "font-size: var(--text-3xl)",
+    "description": "font-size: var(--text-3xl)",
+    "example": "<div class=\"text-3xl\">…</div>"
+  },
+  {
+    "class": ".text-4xl",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "font-size: var(--text-4xl)",
+    "description": "font-size: var(--text-4xl)",
+    "example": "<div class=\"text-4xl\">…</div>"
+  },
+  {
+    "class": ".text-5xl",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "font-size: var(--text-5xl)",
+    "description": "font-size: var(--text-5xl)",
+    "example": "<div class=\"text-5xl\">…</div>"
+  },
+  {
+    "class": ".text-body",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "font-size: var(--text-bs); line-height: 1.5",
+    "description": "semantics - definitions of what text to actually use where",
+    "example": "<div class=\"text-body\">…</div>"
+  },
+  {
+    "class": ".text-body-lg",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "font-size: var(--text-lg); line-height: 1.5",
+    "description": "Body copy at large size (line-height 1.5)",
+    "example": "<div class=\"text-body-lg\">…</div>"
+  },
+  {
+    "class": ".text-body-sm",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "font-size: var(--text-sm); line-height: 1.5",
+    "description": "Body copy at small size (line-height 1.5)",
+    "example": "<div class=\"text-body-sm\">…</div>"
+  },
+  {
+    "class": ".page-title",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "font-size: var(--text-3xl); line-height: 1.1; font-weight: 700; …",
+    "description": "Page title — 3xl, 700, tight tracking",
+    "example": "<div class=\"page-title\">…</div>"
+  },
+  {
+    "class": ".page-desc",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "font-size: var(--text-lg); line-height: 1.2",
+    "description": "Page description — lg, airy",
+    "example": "<div class=\"page-desc\">…</div>"
+  },
+  {
+    "class": ".page-heading-xl",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "font-size: var(--text-xl); line-height: 1.1; font-weight: 600; …",
+    "description": "Page heading, xl rung — 600, tight tracking",
+    "example": "<div class=\"page-heading-xl\">…</div>"
+  },
+  {
+    "class": ".page-heading-lg",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "font-size: var(--text-lg); line-height: 1.1; font-weight: 600; …",
+    "description": "Page heading, lg rung — 600, tight tracking",
+    "example": "<div class=\"page-heading-lg\">…</div>"
+  },
+  {
+    "class": ".page-heading-bs",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "font-size: var(--text-bs); line-height: 1.1; font-weight: 600; …",
+    "description": "Page heading, base rung — 600, tight tracking",
+    "example": "<div class=\"page-heading-bs\">…</div>"
+  },
+  {
+    "class": ".card-title",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "font-size: var(--text-lg); font-weight: 600; line-height: 1.2",
+    "description": "Card title — lg, 600",
+    "example": "<div class=\"card-title\">…</div>"
+  },
+  {
+    "class": ".card-desc",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "font-size: var(--text-md); line-height: 1.2",
+    "description": "Card description — md",
+    "example": "<div class=\"card-desc\">…</div>"
+  },
+  {
+    "class": ".breadcrumb-link",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "color: var(--text-muted); font-size: var(--text-xs); text-transform: uppercase",
+    "description": "Breadcrumb link — muted, uppercased, theme color on hover",
+    "example": "<div class=\"breadcrumb-link\">…</div>"
+  },
+  {
+    "class": ".breadcrumb-spacer",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "color: var(--text-muted); font-size: var(--text-xs); text-transform: uppercase",
+    "description": "Breadcrumb spacer (non-link segment, same type treatment)",
+    "example": "<div class=\"breadcrumb-spacer\">…</div>"
+  },
+  {
+    "class": ".breadcrumb",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "display: flex; justify-content: flex-start",
+    "description": "Breadcrumb rail (flex, offset -0.5rem)",
+    "example": "<div class=\"breadcrumb\">…</div>"
+  },
+  {
+    "class": ".nav-link",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "font-size: var(--text-md); line-height: 1.2",
+    "description": "navigation text in headers, sidebars, etc.",
+    "example": "<div class=\"nav-link\">…</div>"
+  },
+  {
+    "class": ".nav-link-sm",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "font-size: var(--text-sm); line-height: 1.2",
+    "description": "Nav link type, small rung",
+    "example": "<div class=\"nav-link-sm\">…</div>"
+  },
+  {
+    "class": ".nav-header",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "font-size: var(--text-sm); line-height: 1.1; font-weight: 500; …",
+    "description": "Nav group header — sm, 500, padded",
+    "example": "<div class=\"nav-header\">…</div>"
+  },
+  {
+    "class": ".header-nav",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "",
+    "description": "Header nav block — uppercased md links, theme color on hover",
+    "example": "<div class=\"header-nav\">…</div>"
+  },
+  {
+    "class": ".lh11",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "line-height: 1.1",
+    "description": "line height modifiers",
+    "example": "<div class=\"lh11\">…</div>"
+  },
+  {
+    "class": ".lh12",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "line-height: 1.2",
+    "description": "line-height: 1.2",
+    "example": "<div class=\"lh12\">…</div>"
+  },
+  {
+    "class": ".lh13",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "line-height: 1.3",
+    "description": "line-height: 1.3",
+    "example": "<div class=\"lh13\">…</div>"
+  },
+  {
+    "class": ".lh14",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "line-height: 1.4",
+    "description": "line-height: 1.4",
+    "example": "<div class=\"lh14\">…</div>"
+  },
+  {
+    "class": ".lh15",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "line-height: 1.5",
+    "description": "line-height: 1.5",
+    "example": "<div class=\"lh15\">…</div>"
+  },
+  {
+    "class": ".lh16",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "line-height: 1.6",
+    "description": "line-height: 1.6",
+    "example": "<div class=\"lh16\">…</div>"
+  },
+  {
+    "class": ".ls-tight-bs",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "letter-spacing: -0.01rem",
+    "description": "letter-spacing modifiers",
+    "example": "<div class=\"ls-tight-bs\">…</div>"
+  },
+  {
+    "class": ".ls-tight-lg",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "letter-spacing: -0.02rem",
+    "description": "letter-spacing: -0.02rem",
+    "example": "<div class=\"ls-tight-lg\">…</div>"
+  },
+  {
+    "class": ".ls-tight-xl",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "letter-spacing: -0.03rem",
+    "description": "letter-spacing: -0.03rem",
+    "example": "<div class=\"ls-tight-xl\">…</div>"
+  },
+  {
+    "class": ".ls-wide-bs",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "letter-spacing: 0.01rem",
+    "description": "letter-spacing: 0.01rem",
+    "example": "<div class=\"ls-wide-bs\">…</div>"
+  },
+  {
+    "class": ".ls-wide-lg",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "letter-spacing: 0.02rem",
+    "description": "letter-spacing: 0.02rem",
+    "example": "<div class=\"ls-wide-lg\">…</div>"
+  },
+  {
+    "class": ".ls-wide-xl",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "letter-spacing: 0.03rem",
+    "description": "letter-spacing: 0.03rem",
+    "example": "<div class=\"ls-wide-xl\">…</div>"
+  },
+  {
+    "class": ".weight-300",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "font-weight: 300",
+    "description": "font weight modifiers",
+    "example": "<div class=\"weight-300\">…</div>"
+  },
+  {
+    "class": ".weight-400",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "font-weight: 400",
+    "description": "font-weight: 400",
+    "example": "<div class=\"weight-400\">…</div>"
+  },
+  {
+    "class": ".weight-500",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "font-weight: 500",
+    "description": "font-weight: 500",
+    "example": "<div class=\"weight-500\">…</div>"
+  },
+  {
+    "class": ".weight-600",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "font-weight: 600",
+    "description": "font-weight: 600",
+    "example": "<div class=\"weight-600\">…</div>"
+  },
+  {
+    "class": ".weight-700",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "font-weight: 700",
+    "description": "font-weight: 700",
+    "example": "<div class=\"weight-700\">…</div>"
+  },
+  {
+    "class": ".weight-800",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "font-weight: 800",
+    "description": "font-weight: 800",
+    "example": "<div class=\"weight-800\">…</div>"
+  },
+  {
+    "class": ".tt-u",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "text-transform: uppercase",
+    "description": "text transformers and aligners",
+    "example": "<div class=\"tt-u\">…</div>"
+  },
+  {
+    "class": ".tt-c",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "text-transform: capitalize",
+    "description": "text-transform: capitalize",
+    "example": "<div class=\"tt-c\">…</div>"
+  },
+  {
+    "class": ".ta-c",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "text-align: center",
+    "description": "text-align: center",
+    "example": "<div class=\"ta-c\">…</div>"
+  },
+  {
+    "class": ".ta-c.mleft",
+    "kind": "modifier",
+    "parent": ".ta-c",
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "@max-width:1024px: text-align: left",
+    "description": "text-align: left — modifier of .ta-c",
+    "example": "<div class=\"ta-c mleft\">…</div>"
+  },
+  {
+    "class": ".ta-l",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "text-align: left",
+    "description": "text-align: left",
+    "example": "<div class=\"ta-l\">…</div>"
+  },
+  {
+    "class": ".ta-r",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "text-align: right",
+    "description": "text-align: right",
+    "example": "<div class=\"ta-r\">…</div>"
+  },
+  {
+    "class": ".ta-r.mleft",
+    "kind": "modifier",
+    "parent": ".ta-r",
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "@max-width:1024px: text-align: left",
+    "description": "text-align: left — modifier of .ta-r",
+    "example": "<div class=\"ta-r mleft\">…</div>"
+  },
+  {
+    "class": ".mono",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "font-family: var(--font-mono)",
+    "description": "font usage shorthands",
+    "example": "<div class=\"mono\">…</div>"
+  },
+  {
+    "class": ".sans",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "font-family: var(--font-sans)",
+    "description": "Sans font stack (var(--font-sans))",
+    "example": "<div class=\"sans\">…</div>"
+  },
+  {
+    "class": ".truncate",
+    "kind": "class",
+    "parent": null,
+    "file": "_03_typography.sass",
+    "layer": "L5",
+    "property": "overflow: hidden; white-space: nowrap; text-overflow: ellipsis",
+    "description": "One-line ellipsis truncation",
+    "example": "<div class=\"truncate\">…</div>"
+  },
+  {
+    "class": ".box",
+    "kind": "class",
+    "parent": null,
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "display: flex; flex-direction: column",
+    "description": "Flex column container — the vertical structural foundation",
+    "example": "<div class=\"box\">…</div>"
+  },
+  {
+    "class": ".box.xcenter",
+    "kind": "modifier",
+    "parent": ".box",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "align-items: center; text-align: center",
+    "description": "align-items: center — modifier of .box",
+    "example": "<div class=\"box xcenter\">…</div>"
+  },
+  {
+    "class": ".box.xleft",
+    "kind": "modifier",
+    "parent": ".box",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "align-items: flex-start; text-align: left",
+    "description": "align-items: flex-start — modifier of .box",
+    "example": "<div class=\"box xleft\">…</div>"
+  },
+  {
+    "class": ".box.xright",
+    "kind": "modifier",
+    "parent": ".box",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "align-items: flex-end; text-align: right",
+    "description": "align-items: flex-end — modifier of .box",
+    "example": "<div class=\"box xright\">…</div>"
+  },
+  {
+    "class": ".box.ycenter",
+    "kind": "modifier",
+    "parent": ".box",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "justify-content: center",
+    "description": "justify-content: center — modifier of .box",
+    "example": "<div class=\"box ycenter\">…</div>"
+  },
+  {
+    "class": ".box.ytop",
+    "kind": "modifier",
+    "parent": ".box",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "justify-content: flex-start",
+    "description": "justify-content: flex-start — modifier of .box",
+    "example": "<div class=\"box ytop\">…</div>"
+  },
+  {
+    "class": ".box.ybot",
+    "kind": "modifier",
+    "parent": ".box",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "justify-content: flex-end",
+    "description": "justify-content: flex-end — modifier of .box",
+    "example": "<div class=\"box ybot\">…</div>"
+  },
+  {
+    "class": ".box.ybetween",
+    "kind": "modifier",
+    "parent": ".box",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "justify-content: space-between",
+    "description": "justify-content: space-between — modifier of .box",
+    "example": "<div class=\"box ybetween\">…</div>"
+  },
+  {
+    "class": ".box.yevenly",
+    "kind": "modifier",
+    "parent": ".box",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "justify-content: space-evenly",
+    "description": "justify-content: space-evenly — modifier of .box",
+    "example": "<div class=\"box yevenly\">…</div>"
+  },
+  {
+    "class": ".box.yaround",
+    "kind": "modifier",
+    "parent": ".box",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "justify-content: space-around",
+    "description": "justify-content: space-around — modifier of .box",
+    "example": "<div class=\"box yaround\">…</div>"
+  },
+  {
+    "class": ".row",
+    "kind": "class",
+    "parent": null,
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "display: flex; flex-direction: row",
+    "description": "Flex row container — the horizontal structural foundation",
+    "example": "<div class=\"row\">…</div>"
+  },
+  {
+    "class": ".row.xleft",
+    "kind": "modifier",
+    "parent": ".row",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "justify-content: flex-start",
+    "description": "justify-content: flex-start — modifier of .row",
+    "example": "<div class=\"row xleft\">…</div>"
+  },
+  {
+    "class": ".row.xcenter",
+    "kind": "modifier",
+    "parent": ".row",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "justify-content: center",
+    "description": "justify-content: center — modifier of .row",
+    "example": "<div class=\"row xcenter\">…</div>"
+  },
+  {
+    "class": ".row.xright",
+    "kind": "modifier",
+    "parent": ".row",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "justify-content: flex-end",
+    "description": "justify-content: flex-end — modifier of .row",
+    "example": "<div class=\"row xright\">…</div>"
+  },
+  {
+    "class": ".row.xbetween",
+    "kind": "modifier",
+    "parent": ".row",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "justify-content: space-between",
+    "description": "justify-content: space-between — modifier of .row",
+    "example": "<div class=\"row xbetween\">…</div>"
+  },
+  {
+    "class": ".row.xevenly",
+    "kind": "modifier",
+    "parent": ".row",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "justify-content: space-evenly",
+    "description": "justify-content: space-evenly — modifier of .row",
+    "example": "<div class=\"row xevenly\">…</div>"
+  },
+  {
+    "class": ".row.xaround",
+    "kind": "modifier",
+    "parent": ".row",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "justify-content: space-around",
+    "description": "justify-content: space-around — modifier of .row",
+    "example": "<div class=\"row xaround\">…</div>"
+  },
+  {
+    "class": ".row.ycenter",
+    "kind": "modifier",
+    "parent": ".row",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "align-items: center",
+    "description": "align-items: center — modifier of .row",
+    "example": "<div class=\"row ycenter\">…</div>"
+  },
+  {
+    "class": ".row.ytop",
+    "kind": "modifier",
+    "parent": ".row",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "align-items: flex-start",
+    "description": "align-items: flex-start — modifier of .row",
+    "example": "<div class=\"row ytop\">…</div>"
+  },
+  {
+    "class": ".row.ybot",
+    "kind": "modifier",
+    "parent": ".row",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "align-items: flex-end",
+    "description": "align-items: flex-end — modifier of .row",
+    "example": "<div class=\"row ybot\">…</div>"
+  },
+  {
+    "class": ".grid",
+    "kind": "class",
+    "parent": null,
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "display: grid",
+    "description": "CSS grid container (columns composed via .grid-N / alignment below)",
+    "example": "<div class=\"grid\">…</div>"
+  },
+  {
+    "class": ".grid-2",
+    "kind": "class",
+    "parent": null,
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "display: grid",
+    "description": "Responsive 2-column grid: 1 → 2 columns at 1025px",
+    "example": "<div class=\"grid-2\">…</div>"
+  },
+  {
+    "class": ".grid-3",
+    "kind": "class",
+    "parent": null,
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "display: grid",
+    "description": "Responsive 3-column grid: 1 → 3 columns at 1025px (3→1 golden rule)",
+    "example": "<div class=\"grid-3\">…</div>"
+  },
+  {
+    "class": ".grid-4",
+    "kind": "class",
+    "parent": null,
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "display: grid",
+    "description": "Responsive 4-column grid: 1 → 2 → 4 columns (never 3+1)",
+    "example": "<div class=\"grid-4\">…</div>"
+  },
+  {
+    "class": ".grid-5",
+    "kind": "class",
+    "parent": null,
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "display: grid",
+    "description": "display: grid",
+    "example": "<div class=\"grid-5\">…</div>"
+  },
+  {
+    "class": ".grid-6",
+    "kind": "class",
+    "parent": null,
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "display: grid",
+    "description": "Responsive 6-column grid: 1 → 3 → 6 columns (both golden rules hold)",
+    "example": "<div class=\"grid-6\">…</div>"
+  },
+  {
+    "class": ".grid.center",
+    "kind": "modifier",
+    "parent": ".grid",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "place-items: center",
+    "description": "place-items: center — modifier of .grid",
+    "example": "<div class=\"grid center\">…</div>"
+  },
+  {
+    "class": ".grid.xcenter",
+    "kind": "modifier",
+    "parent": ".grid",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "justify-items: center; text-align: center",
+    "description": "justify-items: center — modifier of .grid",
+    "example": "<div class=\"grid xcenter\">…</div>"
+  },
+  {
+    "class": ".grid.xleft",
+    "kind": "modifier",
+    "parent": ".grid",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "justify-items: start; text-align: left",
+    "description": "justify-items: start — modifier of .grid",
+    "example": "<div class=\"grid xleft\">…</div>"
+  },
+  {
+    "class": ".grid.xright",
+    "kind": "modifier",
+    "parent": ".grid",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "justify-items: end; text-align: right",
+    "description": "justify-items: end — modifier of .grid",
+    "example": "<div class=\"grid xright\">…</div>"
+  },
+  {
+    "class": ".grid.xstretch",
+    "kind": "modifier",
+    "parent": ".grid",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "justify-items: stretch",
+    "description": "justify-items: stretch — modifier of .grid",
+    "example": "<div class=\"grid xstretch\">…</div>"
+  },
+  {
+    "class": ".grid.ycenter",
+    "kind": "modifier",
+    "parent": ".grid",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "align-items: center",
+    "description": "align-items: center — modifier of .grid",
+    "example": "<div class=\"grid ycenter\">…</div>"
+  },
+  {
+    "class": ".grid.ytop",
+    "kind": "modifier",
+    "parent": ".grid",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "align-items: start",
+    "description": "align-items: start — modifier of .grid",
+    "example": "<div class=\"grid ytop\">…</div>"
+  },
+  {
+    "class": ".grid.ybot",
+    "kind": "modifier",
+    "parent": ".grid",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "align-items: end",
+    "description": "align-items: end — modifier of .grid",
+    "example": "<div class=\"grid ybot\">…</div>"
+  },
+  {
+    "class": ".grid.ystretch",
+    "kind": "modifier",
+    "parent": ".grid",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "align-items: stretch",
+    "description": "align-items: stretch — modifier of .grid",
+    "example": "<div class=\"grid ystretch\">…</div>"
+  },
+  {
+    "class": ".grid.xbetween",
+    "kind": "modifier",
+    "parent": ".grid",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "justify-content: space-between",
+    "description": "justify-content: space-between — modifier of .grid",
+    "example": "<div class=\"grid xbetween\">…</div>"
+  },
+  {
+    "class": ".grid.xevenly",
+    "kind": "modifier",
+    "parent": ".grid",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "justify-content: space-evenly",
+    "description": "justify-content: space-evenly — modifier of .grid",
+    "example": "<div class=\"grid xevenly\">…</div>"
+  },
+  {
+    "class": ".grid.xaround",
+    "kind": "modifier",
+    "parent": ".grid",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "justify-content: space-around",
+    "description": "justify-content: space-around — modifier of .grid",
+    "example": "<div class=\"grid xaround\">…</div>"
+  },
+  {
+    "class": ".grid.ybetween",
+    "kind": "modifier",
+    "parent": ".grid",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "align-content: space-between",
+    "description": "align-content: space-between — modifier of .grid",
+    "example": "<div class=\"grid ybetween\">…</div>"
+  },
+  {
+    "class": ".grid.yevenly",
+    "kind": "modifier",
+    "parent": ".grid",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "align-content: space-evenly",
+    "description": "align-content: space-evenly — modifier of .grid",
+    "example": "<div class=\"grid yevenly\">…</div>"
+  },
+  {
+    "class": ".grid.yaround",
+    "kind": "modifier",
+    "parent": ".grid",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "align-content: space-around",
+    "description": "align-content: space-around — modifier of .grid",
+    "example": "<div class=\"grid yaround\">…</div>"
+  },
+  {
+    "class": ".wrap",
+    "kind": "class",
+    "parent": null,
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "flex-wrap: wrap",
+    "description": "Allow flex wrapping",
+    "example": "<div class=\"wrap\">…</div>"
+  },
+  {
+    "class": ".grow",
+    "kind": "class",
+    "parent": null,
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "flex: 1 1 0%",
+    "description": "Flex grow — take remaining space (flex: 1 1 0%)",
+    "example": "<div class=\"grow\">…</div>"
+  },
+  {
+    "class": ".shrink-0",
+    "kind": "class",
+    "parent": null,
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "flex-shrink: 0",
+    "description": "Never shrink below content size",
+    "example": "<div class=\"shrink-0\">…</div>"
+  },
+  {
+    "class": ".relative",
+    "kind": "class",
+    "parent": null,
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "position: relative",
+    "description": "position: relative (anchor for absolute children)",
+    "example": "<div class=\"relative\">…</div>"
+  },
+  {
+    "class": ".absolute",
+    "kind": "class",
+    "parent": null,
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "position: absolute",
+    "description": "position: absolute",
+    "example": "<div class=\"absolute\">…</div>"
+  },
+  {
+    "class": ".fixed",
+    "kind": "class",
+    "parent": null,
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "position: fixed",
+    "description": "position: fixed",
+    "example": "<div class=\"fixed\">…</div>"
+  },
+  {
+    "class": ".sticky",
+    "kind": "class",
+    "parent": null,
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "position: sticky",
+    "description": "position: sticky",
+    "example": "<div class=\"sticky\">…</div>"
+  },
+  {
+    "class": ".z-sticky",
+    "kind": "class",
+    "parent": null,
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "z-index: var(--z-sticky)",
+    "description": "Stacking: sticky headers and rails (var(--z-sticky))",
+    "example": "<div class=\"z-sticky\">…</div>"
+  },
+  {
+    "class": ".z-raised",
+    "kind": "class",
+    "parent": null,
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "z-index: var(--z-raised)",
+    "description": "Stacking: dropdowns, menus and floating panels above sticky chrome (var(--z-raised))",
+    "example": "<div class=\"z-raised\">…</div>"
+  },
+  {
+    "class": ".z-modal",
+    "kind": "class",
+    "parent": null,
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "z-index: var(--z-modal)",
+    "description": "Stacking: modal overlays and drawers (var(--z-modal))",
+    "example": "<div class=\"z-modal\">…</div>"
+  },
+  {
+    "class": ".z-toast",
+    "kind": "class",
+    "parent": null,
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "z-index: var(--z-toast)",
+    "description": "Stacking: toasts and notifications, above modals (var(--z-toast))",
+    "example": "<div class=\"z-toast\">…</div>"
+  },
+  {
+    "class": ".scroll-y",
+    "kind": "class",
+    "parent": null,
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "overflow-y: auto; overflow-x: hidden; overscroll-behavior: contain",
+    "description": "Vertical scroll inside a bounded height; needs an .h-* or a constraining flex parent",
+    "example": "<div class=\"scroll-y\">…</div>"
+  },
+  {
+    "class": ".scroll-x",
+    "kind": "class",
+    "parent": null,
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "overflow-x: auto; overflow-y: hidden; overscroll-behavior: contain",
+    "description": "Horizontal scroll inside a bounded width; .reel adds snap points",
+    "example": "<div class=\"scroll-x\">…</div>"
+  },
+  {
+    "class": ".card",
+    "kind": "class",
+    "parent": null,
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "background: var(--bg-panel)",
+    "description": "Panel card: padded, bordered, panel background; arrow svg and footer behaviors included",
+    "example": "<div class=\"card\">…</div>"
+  },
+  {
+    "class": ".card[data-variant=\"primary\"]",
+    "kind": "variant",
+    "parent": ".card",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "background: var(--bg-surface); border: 1px solid var(--border-subtle)",
+    "description": "background: var(--bg-surface) — attribute variant of .card",
+    "example": "<div class=\"card\">…</div>"
+  },
+  {
+    "class": ".card[data-variant=\"secondary\"]",
+    "kind": "variant",
+    "parent": ".card",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "background: var(--bg-sunken); border: 1px solid var(--border-strong)",
+    "description": "background: var(--bg-sunken) — attribute variant of .card",
+    "example": "<div class=\"card\">…</div>"
+  },
+  {
+    "class": ".card[data-variant=\"soft\"]",
+    "kind": "variant",
+    "parent": ".card",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "background: var(--bg-extra); border: 1px solid transparent",
+    "description": "background: var(--bg-extra) — attribute variant of .card",
+    "example": "<div class=\"card\">…</div>"
+  },
+  {
+    "class": ".card[data-variant=\"outline\"]",
+    "kind": "variant",
+    "parent": ".card",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "background: transparent; color: var(--text-primary); border: 1px solid var(--border-strong)",
+    "description": "background: transparent — attribute variant of .card",
+    "example": "<div class=\"card\">…</div>"
+  },
+  {
+    "class": ".card[data-variant=\"ghost\"]",
+    "kind": "variant",
+    "parent": ".card",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "background: transparent; border: none",
+    "description": "background: transparent — attribute variant of .card",
+    "example": "<div class=\"card\">…</div>"
+  },
+  {
+    "class": ".card[data-variant=\"link\"]",
+    "kind": "variant",
+    "parent": ".card",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "background: var(--bg-surface); border: 1px solid var(--border-subtle); text-decoration: none",
+    "description": "background: var(--bg-surface) — attribute variant of .card",
+    "example": "<div class=\"card\">…</div>"
+  },
+  {
+    "class": ".card[data-shape=\"modern\"]",
+    "kind": "variant",
+    "parent": ".card",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "border-radius: var(--radius-sm)",
+    "description": "border-radius: var(--radius-sm) — attribute variant of .card",
+    "example": "<div class=\"card\">…</div>"
+  },
+  {
+    "class": ".card[data-shape=\"curved\"]",
+    "kind": "variant",
+    "parent": ".card",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "border-radius: var(--radius-md)",
+    "description": "border-radius: var(--radius-md) — attribute variant of .card",
+    "example": "<div class=\"card\">…</div>"
+  },
+  {
+    "class": ".card[data-shape=\"round\"]",
+    "kind": "variant",
+    "parent": ".card",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "border-radius: var(--radius-full)",
+    "description": "border-radius: var(--radius-full) — attribute variant of .card",
+    "example": "<div class=\"card\">…</div>"
+  },
+  {
+    "class": ".card[data-pad=\"sm\"]",
+    "kind": "variant",
+    "parent": ".card",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "padding: var(--space-sm)",
+    "description": "padding: var(--space-sm) — attribute variant of .card",
+    "example": "<div class=\"card\">…</div>"
+  },
+  {
+    "class": ".card[data-pad=\"md\"]",
+    "kind": "variant",
+    "parent": ".card",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "padding: var(--space-md)",
+    "description": "padding: var(--space-md) — attribute variant of .card",
+    "example": "<div class=\"card\">…</div>"
+  },
+  {
+    "class": ".card[data-pad=\"bs\"]",
+    "kind": "variant",
+    "parent": ".card",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "padding: var(--space-bs)",
+    "description": "padding: var(--space-bs) — attribute variant of .card",
+    "example": "<div class=\"card\">…</div>"
+  },
+  {
+    "class": ".card[data-pad=\"lg\"]",
+    "kind": "variant",
+    "parent": ".card",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "padding: var(--space-lg)",
+    "description": "padding: var(--space-lg) — attribute variant of .card",
+    "example": "<div class=\"card\">…</div>"
+  },
+  {
+    "class": ".card[data-pad=\"xl\"]",
+    "kind": "variant",
+    "parent": ".card",
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "padding: var(--space-xl)",
+    "description": "padding: var(--space-xl) — attribute variant of .card",
+    "example": "<div class=\"card\">…</div>"
+  },
+  {
+    "class": ".chip",
+    "kind": "class",
+    "parent": null,
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "font-size: var(--text-xs); font-weight: 500; letter-spacing: 0.01rem; …",
+    "description": "Small inline label — tag/badge duty (xs type, md radius)",
+    "example": "<div class=\"chip\">…</div>"
+  },
+  {
+    "class": ".prose-section",
+    "kind": "class",
+    "parent": null,
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "display: flex; flex-direction: column; gap: var(--space-lg)",
+    "description": "Vertical prose section (flex column, lg gap)",
+    "example": "<div class=\"prose-section\">…</div>"
+  },
+  {
+    "class": ".nav-section",
+    "kind": "class",
+    "parent": null,
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "display: flex; flex-direction: column; gap: var(--space-xs)",
+    "description": "Vertical nav section (flex column, xs gap)",
+    "example": "<div class=\"nav-section\">…</div>"
+  },
+  {
+    "class": ".page-header",
+    "kind": "class",
+    "parent": null,
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "display: flex; flex-direction: column; padding-bottom: var(--space-2xl); …",
+    "description": "Page header block (flex column, sm gap, 2xl bottom pad)",
+    "example": "<div class=\"page-header\">…</div>"
+  },
+  {
+    "class": ".inputs-wrapper",
+    "kind": "class",
+    "parent": null,
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "display: flex; gap: var(--space-xs)",
+    "description": "Form field group (flex row, xs gap; labels at sm muted)",
+    "example": "<div class=\"inputs-wrapper\">…</div>"
+  },
+  {
+    "class": ".checkbox-wrapper",
+    "kind": "class",
+    "parent": null,
+    "file": "_04_containers.sass",
+    "layer": "L2",
+    "property": "display: flex; align-items: center; gap: var(--space-xs)",
+    "description": "Checkbox row (flex, centered, xs gap; span at sm weight 500)",
+    "example": "<div class=\"checkbox-wrapper\">…</div>"
+  },
+  {
+    "class": ".grid-1",
+    "kind": "class",
+    "parent": null,
+    "file": "_05_layouts.sass",
+    "layer": "L3",
+    "property": "display: grid; grid-template-columns: repeat(1, minmax(0, 1fr))",
+    "description": "Gridding golden rules: exactly 3 items → 3→1, never 2+1; count 4 or a",
+    "example": "<div class=\"grid-1\">…</div>"
+  },
+  {
+    "class": ".cspan-1",
+    "kind": "class",
+    "parent": null,
+    "file": "_05_layouts.sass",
+    "layer": "L3",
+    "property": "grid-column: span 1",
+    "description": "Span 1 grid column",
+    "example": "<div class=\"cspan-1\">…</div>"
+  },
+  {
+    "class": ".cspan-2",
+    "kind": "class",
+    "parent": null,
+    "file": "_05_layouts.sass",
+    "layer": "L3",
+    "property": "grid-column: span 2",
+    "description": "Span 2 grid columns",
+    "example": "<div class=\"cspan-2\">…</div>"
+  },
+  {
+    "class": ".cspan-3",
+    "kind": "class",
+    "parent": null,
+    "file": "_05_layouts.sass",
+    "layer": "L3",
+    "property": "grid-column: span 3",
+    "description": "Span 3 grid columns",
+    "example": "<div class=\"cspan-3\">…</div>"
+  },
+  {
+    "class": ".cspan-4",
+    "kind": "class",
+    "parent": null,
+    "file": "_05_layouts.sass",
+    "layer": "L3",
+    "property": "grid-column: span 4",
+    "description": "Span 4 grid columns",
+    "example": "<div class=\"cspan-4\">…</div>"
+  },
+  {
+    "class": ".cspan-5",
+    "kind": "class",
+    "parent": null,
+    "file": "_05_layouts.sass",
+    "layer": "L3",
+    "property": "grid-column: span 5",
+    "description": "Span 5 grid columns",
+    "example": "<div class=\"cspan-5\">…</div>"
+  },
+  {
+    "class": ".cspan-6",
+    "kind": "class",
+    "parent": null,
+    "file": "_05_layouts.sass",
+    "layer": "L3",
+    "property": "grid-column: span 6",
+    "description": "Span 6 grid columns",
+    "example": "<div class=\"cspan-6\">…</div>"
+  },
+  {
+    "class": ".cspan-7",
+    "kind": "class",
+    "parent": null,
+    "file": "_05_layouts.sass",
+    "layer": "L3",
+    "property": "grid-column: span 7",
+    "description": "Span 7 grid columns",
+    "example": "<div class=\"cspan-7\">…</div>"
+  },
+  {
+    "class": ".cspan-8",
+    "kind": "class",
+    "parent": null,
+    "file": "_05_layouts.sass",
+    "layer": "L3",
+    "property": "grid-column: span 8",
+    "description": "Span 8 grid columns",
+    "example": "<div class=\"cspan-8\">…</div>"
+  },
+  {
+    "class": ".card-grid",
+    "kind": "class",
+    "parent": null,
+    "file": "_05_layouts.sass",
+    "layer": "L3",
+    "property": "display: grid; grid-template-columns: repeat(auto-fit, minmax(min(var(--card-min), 1…",
+    "description": "Auto-fit repeatable cards — column count negotiable, min track from config.",
+    "example": "<div class=\"card-grid\">…</div>"
+  },
+  {
+    "class": ".prose",
+    "kind": "class",
+    "parent": null,
+    "file": "_05_layouts.sass",
+    "layer": "L3",
+    "property": "max-width: var(--prose-clamp); margin-inline: auto; display: flex; …",
+    "description": "Prose — the reading measure (≤ 760px) + typographic rhythm (rhythm authored).",
+    "example": "<div class=\"prose\">…</div>"
+  },
+  {
+    "class": ".reel",
+    "kind": "class",
+    "parent": null,
+    "file": "_05_layouts.sass",
+    "layer": "L3",
+    "property": "display: flex; flex-direction: row; overflow-x: auto; …",
+    "description": "Reel — the human-driven scroll-snap rail (filmstrip). Open for carousel duty.",
+    "example": "<div class=\"reel\">…</div>"
+  },
+  {
+    "class": ".get",
+    "kind": "class",
+    "parent": null,
+    "file": "_06_shells.sass",
+    "layer": "L4",
+    "property": "",
+    "description": ".get rule",
+    "example": "<div class=\"get\">…</div>"
+  },
+  {
+    "class": ".app-shell",
+    "kind": "class",
+    "parent": null,
+    "file": "_06_shells.sass",
+    "layer": "L4",
+    "property": "display: flex; flex-direction: column; position: relative; …",
+    "description": "Application shell root — flex column, 100vh, hosts header/main/footer and the drawer state",
+    "example": "<div class=\"app-shell\">…</div>"
+  },
+  {
+    "class": ".app-header",
+    "kind": "class",
+    "parent": null,
+    "file": "_06_shells.sass",
+    "layer": "L4",
+    "property": "display: flex; flex-direction: row; align-items: center; …",
+    "description": "Sticky application header (var(--header-height))",
+    "example": "<div class=\"app-header\">…</div>"
+  },
+  {
+    "class": ".app-header.clamped",
+    "kind": "modifier",
+    "parent": ".app-header",
+    "file": "_06_shells.sass",
+    "layer": "L4",
+    "property": "width: var(--content-clamp); margin-inline: auto",
+    "description": "width: var(--content-clamp) — modifier of .app-header",
+    "example": "<div class=\"app-header clamped\">…</div>"
+  },
+  {
+    "class": ".app-main",
+    "kind": "class",
+    "parent": null,
+    "file": "_06_shells.sass",
+    "layer": "L4",
+    "property": "flex: 1 1 0%; min-width: 0; min-height: calc(100dvh - var(--fit-height)); …",
+    "description": "Main region between header and footer — flex row, fitted to 100dvh minus chrome",
+    "example": "<div class=\"app-main\">…</div>"
+  },
+  {
+    "class": ".app-main.clamped",
+    "kind": "modifier",
+    "parent": ".app-main",
+    "file": "_06_shells.sass",
+    "layer": "L4",
+    "property": "width: var(--content-clamp); margin-inline: auto",
+    "description": "width: var(--content-clamp) — modifier of .app-main",
+    "example": "<div class=\"app-main clamped\">…</div>"
+  },
+  {
+    "class": ".main-section",
+    "kind": "class",
+    "parent": null,
+    "file": "_06_shells.sass",
+    "layer": "L4",
+    "property": "flex: 1 1 0%; min-width: 0",
+    "description": "Primary content column inside .app-main (flex: 1, min-width: 0)",
+    "example": "<div class=\"main-section\">…</div>"
+  },
+  {
+    "class": ".main-section.solo",
+    "kind": "modifier",
+    "parent": ".main-section",
+    "file": "_06_shells.sass",
+    "layer": "L4",
+    "property": "padding-inline: var(--app-inline)",
+    "description": "padding-inline: var(--app-inline) — modifier of .main-section",
+    "example": "<div class=\"main-section solo\">…</div>"
+  },
+  {
+    "class": ".sidebar-left",
+    "kind": "class",
+    "parent": null,
+    "file": "_06_shells.sass",
+    "layer": "L4",
+    "property": "display: none; flex-shrink: 0; position: sticky; …",
+    "description": "Left = nav: visible ≥ lg; below, .open on .app-shell resurrects it as an",
+    "example": "<div class=\"sidebar-left\">…</div>"
+  },
+  {
+    "class": ".sidebar-right",
+    "kind": "class",
+    "parent": null,
+    "file": "_06_shells.sass",
+    "layer": "L4",
+    "property": "display: none; flex-shrink: 0; position: sticky; …",
+    "description": "Left = nav: visible ≥ lg; below, .open on .app-shell resurrects it as an",
+    "example": "<div class=\"sidebar-right\">…</div>"
+  },
+  {
+    "class": ".app-shell.open .sidebar-left",
+    "kind": "compound",
+    "parent": null,
+    "file": "_06_shells.sass",
+    "layer": "L4",
+    "property": "display: block; position: fixed; left: 0; …",
+    "description": "display: block — combination rule (app-shellopen sidebar-left)",
+    "example": "<div class=\"app-shell open\"><div class=\"sidebar-left\">…</div></div>"
+  },
+  {
+    "class": ".app-footer",
+    "kind": "class",
+    "parent": null,
+    "file": "_06_shells.sass",
+    "layer": "L4",
+    "property": "display: flex; flex-direction: row; align-items: center; …",
+    "description": "Application footer (var(--footer-height))",
+    "example": "<div class=\"app-footer\">…</div>"
+  },
+  {
+    "class": ".content-section",
+    "kind": "class",
+    "parent": null,
+    "file": "_06_shells.sass",
+    "layer": "L4",
+    "property": "width: 100%; padding: var(--space-2xl) 0 · @min-width:769px: padding: var(--space-2xl) var(--space-bs) · @min-width:1025px: padding: var(--space-2xl) var(--space-bs)",
+    "description": "Page content block — responsive padding and narrow width modes",
+    "example": "<div class=\"content-section\">…</div>"
+  },
+  {
+    "class": ".content-section.null",
+    "kind": "modifier",
+    "parent": ".content-section",
+    "file": "_06_shells.sass",
+    "layer": "L4",
+    "property": "padding: 0 var(--space-bs)",
+    "description": "padding: 0 var(--space-bs) — modifier of .content-section",
+    "example": "<div class=\"content-section null\">…</div>"
+  },
+  {
+    "class": ".content-section.narrow-half",
+    "kind": "modifier",
+    "parent": ".content-section",
+    "file": "_06_shells.sass",
+    "layer": "L4",
+    "property": "padding: var(--space-2xl) 0; width: 640px; margin-inline: auto",
+    "description": "padding: var(--space-2xl) 0 — modifier of .content-section",
+    "example": "<div class=\"content-section narrow-half\">…</div>"
+  },
+  {
+    "class": ".content-section.narrow-wide",
+    "kind": "modifier",
+    "parent": ".content-section",
+    "file": "_06_shells.sass",
+    "layer": "L4",
+    "property": "padding: var(--space-2xl) 0; width: 720px; margin-inline: auto",
+    "description": "padding: var(--space-2xl) 0 — modifier of .content-section",
+    "example": "<div class=\"content-section narrow-wide\">…</div>"
+  },
+  {
+    "class": ".content-section.narrow-full",
+    "kind": "modifier",
+    "parent": ".content-section",
+    "file": "_06_shells.sass",
+    "layer": "L4",
+    "property": "width: 640px; margin-inline: auto",
+    "description": "width: 640px — modifier of .content-section",
+    "example": "<div class=\"content-section narrow-full\">…</div>"
+  },
+  {
+    "class": ".input",
+    "kind": "class",
+    "parent": null,
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "display: block; padding-inline: var(--space-md); border: 1px solid var(--border); …",
+    "description": "Text input — themed field with focus ring",
+    "example": "<div class=\"input\">…</div>"
+  },
+  {
+    "class": ".input.fitted",
+    "kind": "modifier",
+    "parent": ".input",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "width: max-content",
+    "description": "width: max-content — modifier of .input",
+    "example": "<div class=\"input fitted\">…</div>"
+  },
+  {
+    "class": ".input[data-variant=\"primary\"]",
+    "kind": "variant",
+    "parent": ".input",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "background: var(--bg-input); border: 1px solid var(--border-strong); color: var(--text-primary)",
+    "description": "background: var(--bg-input) — attribute variant of .input",
+    "example": "<div class=\"input\">…</div>"
+  },
+  {
+    "class": ".input[data-variant=\"secondary\"]",
+    "kind": "variant",
+    "parent": ".input",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "background: var(--bg-panel); border: 1px solid var(--border); color: var(--text-primary)",
+    "description": "background: var(--bg-panel) — attribute variant of .input",
+    "example": "<div class=\"input\">…</div>"
+  },
+  {
+    "class": ".input[data-variant=\"soft\"]",
+    "kind": "variant",
+    "parent": ".input",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "background: var(--bg-surface); border: 1px solid var(--border-subtle); color: var(--text-secondary)",
+    "description": "background: var(--bg-surface) — attribute variant of .input",
+    "example": "<div class=\"input\">…</div>"
+  },
+  {
+    "class": ".input[data-variant=\"outline\"]",
+    "kind": "variant",
+    "parent": ".input",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "background: var(--bg); color: var(--text-primary); border: 1px solid var(--border-strong)",
+    "description": "background: var(--bg) — attribute variant of .input",
+    "example": "<div class=\"input\">…</div>"
+  },
+  {
+    "class": ".input[data-variant=\"ghost\"]",
+    "kind": "variant",
+    "parent": ".input",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "background: transparent; color: var(--text-primary); border: none; …",
+    "description": "background: transparent — attribute variant of .input",
+    "example": "<div class=\"input\">…</div>"
+  },
+  {
+    "class": ".input[data-shape=\"square\"]",
+    "kind": "variant",
+    "parent": ".input",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "border-radius: 0",
+    "description": "border-radius: 0 — attribute variant of .input",
+    "example": "<div class=\"input\">…</div>"
+  },
+  {
+    "class": ".input[data-shape=\"modern\"]",
+    "kind": "variant",
+    "parent": ".input",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "border-radius: var(--radius-sm)",
+    "description": "border-radius: var(--radius-sm) — attribute variant of .input",
+    "example": "<div class=\"input\">…</div>"
+  },
+  {
+    "class": ".input[data-shape=\"curved\"]",
+    "kind": "variant",
+    "parent": ".input",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "border-radius: var(--radius-md)",
+    "description": "border-radius: var(--radius-md) — attribute variant of .input",
+    "example": "<div class=\"input\">…</div>"
+  },
+  {
+    "class": ".input[data-shape=\"round\"]",
+    "kind": "variant",
+    "parent": ".input",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "border-radius: var(--radius-full)",
+    "description": "border-radius: var(--radius-full) — attribute variant of .input",
+    "example": "<div class=\"input\">…</div>"
+  },
+  {
+    "class": ".input[data-size=\"sm\"]",
+    "kind": "variant",
+    "parent": ".input",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "height: var(--height-sm); font-size: var(--text-sm)",
+    "description": "height: var(--height-sm) — attribute variant of .input",
+    "example": "<div class=\"input\">…</div>"
+  },
+  {
+    "class": ".input[data-size=\"md\"]",
+    "kind": "variant",
+    "parent": ".input",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "height: var(--height-md); font-size: var(--text-sm)",
+    "description": "height: var(--height-md) — attribute variant of .input",
+    "example": "<div class=\"input\">…</div>"
+  },
+  {
+    "class": ".input[data-size=\"bs\"]",
+    "kind": "variant",
+    "parent": ".input",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "height: var(--height-bs); font-size: var(--text-bs)",
+    "description": "height: var(--height-bs) — attribute variant of .input",
+    "example": "<div class=\"input\">…</div>"
+  },
+  {
+    "class": ".input[data-size=\"lg\"]",
+    "kind": "variant",
+    "parent": ".input",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "height: var(--height-lg); font-size: var(--text-bs)",
+    "description": "height: var(--height-lg) — attribute variant of .input",
+    "example": "<div class=\"input\">…</div>"
+  },
+  {
+    "class": ".select",
+    "kind": "class",
+    "parent": null,
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "display: block; padding-inline: var(--space-bs); appearance: none; …",
+    "description": "Select dropdown — themed field with chevron and focus ring",
+    "example": "<div class=\"select\">…</div>"
+  },
+  {
+    "class": ".select.fitted",
+    "kind": "modifier",
+    "parent": ".select",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "width: max-content",
+    "description": "width: max-content — modifier of .select",
+    "example": "<div class=\"select fitted\">…</div>"
+  },
+  {
+    "class": ".select[data-variant=\"primary\"]",
+    "kind": "variant",
+    "parent": ".select",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "background: var(--bg-input); border: 1px solid var(--border-strong); color: var(--text-primary)",
+    "description": "background: var(--bg-input) — attribute variant of .select",
+    "example": "<div class=\"select\">…</div>"
+  },
+  {
+    "class": ".select[data-variant=\"secondary\"]",
+    "kind": "variant",
+    "parent": ".select",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "background: var(--bg-panel); border: 1px solid var(--border); color: var(--text-primary)",
+    "description": "background: var(--bg-panel) — attribute variant of .select",
+    "example": "<div class=\"select\">…</div>"
+  },
+  {
+    "class": ".select[data-variant=\"soft\"]",
+    "kind": "variant",
+    "parent": ".select",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "background: var(--bg-surface); border: 1px solid var(--border-subtle); color: var(--text-secondary)",
+    "description": "background: var(--bg-surface) — attribute variant of .select",
+    "example": "<div class=\"select\">…</div>"
+  },
+  {
+    "class": ".select[data-variant=\"outline\"]",
+    "kind": "variant",
+    "parent": ".select",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "background: var(--bg); color: var(--text-primary); border: 1px solid var(--border-strong)",
+    "description": "background: var(--bg) — attribute variant of .select",
+    "example": "<div class=\"select\">…</div>"
+  },
+  {
+    "class": ".select[data-variant=\"ghost\"]",
+    "kind": "variant",
+    "parent": ".select",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "background: transparent; color: var(--text-primary); border: none; …",
+    "description": "background: transparent — attribute variant of .select",
+    "example": "<div class=\"select\">…</div>"
+  },
+  {
+    "class": ".select[data-shape=\"square\"]",
+    "kind": "variant",
+    "parent": ".select",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "border-radius: 0",
+    "description": "border-radius: 0 — attribute variant of .select",
+    "example": "<div class=\"select\">…</div>"
+  },
+  {
+    "class": ".select[data-shape=\"modern\"]",
+    "kind": "variant",
+    "parent": ".select",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "border-radius: var(--radius-sm)",
+    "description": "border-radius: var(--radius-sm) — attribute variant of .select",
+    "example": "<div class=\"select\">…</div>"
+  },
+  {
+    "class": ".select[data-shape=\"curved\"]",
+    "kind": "variant",
+    "parent": ".select",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "border-radius: var(--radius-md)",
+    "description": "border-radius: var(--radius-md) — attribute variant of .select",
+    "example": "<div class=\"select\">…</div>"
+  },
+  {
+    "class": ".select[data-shape=\"round\"]",
+    "kind": "variant",
+    "parent": ".select",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "border-radius: var(--radius-full)",
+    "description": "border-radius: var(--radius-full) — attribute variant of .select",
+    "example": "<div class=\"select\">…</div>"
+  },
+  {
+    "class": ".select[data-size=\"sm\"]",
+    "kind": "variant",
+    "parent": ".select",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "height: var(--height-sm); font-size: var(--text-sm)",
+    "description": "height: var(--height-sm) — attribute variant of .select",
+    "example": "<div class=\"select\">…</div>"
+  },
+  {
+    "class": ".select[data-size=\"md\"]",
+    "kind": "variant",
+    "parent": ".select",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "height: var(--height-md); font-size: var(--text-sm)",
+    "description": "height: var(--height-md) — attribute variant of .select",
+    "example": "<div class=\"select\">…</div>"
+  },
+  {
+    "class": ".select[data-size=\"bs\"]",
+    "kind": "variant",
+    "parent": ".select",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "height: var(--height-bs); font-size: var(--text-bs)",
+    "description": "height: var(--height-bs) — attribute variant of .select",
+    "example": "<div class=\"select\">…</div>"
+  },
+  {
+    "class": ".select[data-size=\"lg\"]",
+    "kind": "variant",
+    "parent": ".select",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "height: var(--height-lg); font-size: var(--text-bs)",
+    "description": "height: var(--height-lg) — attribute variant of .select",
+    "example": "<div class=\"select\">…</div>"
+  },
+  {
+    "class": ".link",
+    "kind": "class",
+    "parent": null,
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "color: var(--theme-color); text-decoration: none; transition: color var(--motionin1)",
+    "description": "Themed link — theme color, alt on hover",
+    "example": "<div class=\"link\">…</div>"
+  },
+  {
+    "class": ".link-plain",
+    "kind": "class",
+    "parent": null,
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "color: var(--text-primary); text-decoration: none; transition: color var(--motionin1)",
+    "description": "Plain link — inherits ink, theme color on hover",
+    "example": "<div class=\"link-plain\">…</div>"
+  },
+  {
+    "class": ".link-parent",
+    "kind": "class",
+    "parent": null,
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "color: var(--text-primary); text-decoration: none",
+    "description": "Link block — hovers color its .link-title child instead of itself",
+    "example": "<div class=\"link-parent\">…</div>"
+  },
+  {
+    "class": ".link-title",
+    "kind": "child",
+    "parent": ".link-parent",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "transition: color var(--motionin1)",
+    "description": "transition: color var(--motionin1) — child of .link-parent",
+    "example": "<div class=\"link-title\">…</div>"
+  },
+  {
+    "class": "a.nav-link",
+    "kind": "class",
+    "parent": null,
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "padding: var(--space-sm); border-radius: var(--radius-sm)",
+    "description": "Interactive form of .nav-link — padded, curved, hover fill",
+    "example": "<a class=\"nav-link\" href=\"…\">…</a>"
+  },
+  {
+    "class": "button",
+    "kind": "element",
+    "parent": null,
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "display: flex; align-items: center; justify-content: center; …",
+    "description": "Button root: flex centring, type, cursor, focus ring, disabled state. Carries the data-variant / data-shape / data-size / iconbox axes.",
+    "example": "<button>…</button>"
+  },
+  {
+    "class": ".button",
+    "kind": "class",
+    "parent": null,
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "display: flex; align-items: center; justify-content: center; …",
+    "description": "Button root: flex centring, type, cursor, focus ring, disabled state. Carries the data-variant / data-shape / data-size / iconbox axes.",
+    "example": "<div class=\"button\">…</div>"
+  },
+  {
+    "class": "button.icon",
+    "kind": "modifier",
+    "parent": "button",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "height: 24px; width: 24px; border: 1px solid transparent; …",
+    "description": "height: 24px — modifier of button",
+    "example": "<button class=\"icon\">…</button>"
+  },
+  {
+    "class": "button[data-variant=\"primary\"]",
+    "kind": "variant",
+    "parent": "button",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "background: var(--theme-color); color: var(--white-fixed); border: 1px solid var(--theme-color)",
+    "description": "background: var(--theme-color) — attribute variant of button",
+    "example": "<button [data-variant=\"primary\"]>…</button>"
+  },
+  {
+    "class": "button[data-variant=\"secondary\"]",
+    "kind": "variant",
+    "parent": "button",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "background: var(--state-surface); color: var(--text-primary); border: 1px solid var(--border-strong)",
+    "description": "background: var(--state-surface) — attribute variant of button",
+    "example": "<button [data-variant=\"secondary\"]>…</button>"
+  },
+  {
+    "class": "button[data-variant=\"soft\"]",
+    "kind": "variant",
+    "parent": "button",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "background: var(--theme-color-sub); color: #191512; border: 1px solid var(--theme-color-sub)",
+    "description": "background: var(--theme-color-sub) — attribute variant of button",
+    "example": "<button [data-variant=\"soft\"]>…</button>"
+  },
+  {
+    "class": "button[data-variant=\"outline\"]",
+    "kind": "variant",
+    "parent": "button",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "background: var(--bg); color: var(--text-primary); border: 1px solid var(--border-strong)",
+    "description": "background: var(--bg) — attribute variant of button",
+    "example": "<button [data-variant=\"outline\"]>…</button>"
+  },
+  {
+    "class": "button[data-variant=\"ghost\"]",
+    "kind": "variant",
+    "parent": "button",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "background: transparent; color: var(--text-primary); border: none",
+    "description": "background: transparent — attribute variant of button",
+    "example": "<button [data-variant=\"ghost\"]>…</button>"
+  },
+  {
+    "class": "button[data-variant=\"link\"]",
+    "kind": "variant",
+    "parent": "button",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "background: transparent; color: var(--theme-color); border: none",
+    "description": "background: transparent — attribute variant of button",
+    "example": "<button [data-variant=\"link\"]>…</button>"
+  },
+  {
+    "class": "button[data-variant=\"destructive\"]",
+    "kind": "variant",
+    "parent": "button",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "background: var(--danger); color: var(--white-fixed); border: 1px solid var(--danger)",
+    "description": "background: var(--danger) — attribute variant of button",
+    "example": "<button [data-variant=\"destructive\"]>…</button>"
+  },
+  {
+    "class": "button[data-shape=\"square\"]",
+    "kind": "variant",
+    "parent": "button",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "border-radius: 0",
+    "description": "border-radius: 0 — attribute variant of button",
+    "example": "<button [data-shape=\"square\"]>…</button>"
+  },
+  {
+    "class": "button[data-shape=\"modern\"]",
+    "kind": "variant",
+    "parent": "button",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "border-radius: var(--radius-sm)",
+    "description": "border-radius: var(--radius-sm) — attribute variant of button",
+    "example": "<button [data-shape=\"modern\"]>…</button>"
+  },
+  {
+    "class": "button[data-shape=\"curved\"]",
+    "kind": "variant",
+    "parent": "button",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "border-radius: var(--radius-md)",
+    "description": "border-radius: var(--radius-md) — attribute variant of button",
+    "example": "<button [data-shape=\"curved\"]>…</button>"
+  },
+  {
+    "class": "button[data-shape=\"round\"]",
+    "kind": "variant",
+    "parent": "button",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "border-radius: var(--radius-full)",
+    "description": "border-radius: var(--radius-full) — attribute variant of button",
+    "example": "<button [data-shape=\"round\"]>…</button>"
+  },
+  {
+    "class": "button[data-size=\"sm\"]",
+    "kind": "variant",
+    "parent": "button",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "height: var(--height-sm); font-size: var(--text-sm)",
+    "description": "height: var(--height-sm) — attribute variant of button",
+    "example": "<button [data-size=\"sm\"]>…</button>"
+  },
+  {
+    "class": "button[data-size=\"md\"]",
+    "kind": "variant",
+    "parent": "button",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "height: var(--height-md); font-size: var(--text-sm)",
+    "description": "height: var(--height-md) — attribute variant of button",
+    "example": "<button [data-size=\"md\"]>…</button>"
+  },
+  {
+    "class": "button[data-size=\"bs\"]",
+    "kind": "variant",
+    "parent": "button",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "height: var(--height-bs); font-size: var(--text-bs)",
+    "description": "height: var(--height-bs) — attribute variant of button",
+    "example": "<button [data-size=\"bs\"]>…</button>"
+  },
+  {
+    "class": "button[data-size=\"lg\"]",
+    "kind": "variant",
+    "parent": "button",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "height: var(--height-lg); font-size: var(--text-bs)",
+    "description": "height: var(--height-lg) — attribute variant of button",
+    "example": "<button [data-size=\"lg\"]>…</button>"
+  },
+  {
+    "class": ".button-group",
+    "kind": "class",
+    "parent": null,
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "display: inline-flex; align-items: stretch; vertical-align: middle",
+    "description": "display: inline-flex",
+    "example": "<div class=\"button-group\">…</div>"
+  },
+  {
+    "class": ".split-button",
+    "kind": "class",
+    "parent": null,
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "display: inline-flex; align-items: stretch; vertical-align: middle",
+    "description": "display: inline-flex",
+    "example": "<div class=\"split-button\">…</div>"
+  },
+  {
+    "class": ".button-group.vertical",
+    "kind": "modifier",
+    "parent": ".button-group",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "flex-direction: column",
+    "description": "flex-direction: column — modifier of .button-group",
+    "example": "<div class=\"button-group vertical\">…</div>"
+  },
+  {
+    "class": ".button-group:not(.vertical)",
+    "kind": "modifier",
+    "parent": ".button-group",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "flex-direction: row",
+    "description": "flex-direction: row — modifier of .button-group",
+    "example": "<div class=\"button-group vertical\">…</div>"
+  },
+  {
+    "class": "a.btn",
+    "kind": "class",
+    "parent": null,
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "",
+    "description": "Call-to-action anchor button — styled with data-variant, data-shape, and data-size axes",
+    "example": "<a class=\"btn\" href=\"…\">…</a>"
+  },
+  {
+    "class": "button[data-variant=\"iconbox\"]",
+    "kind": "variant",
+    "parent": "button",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "background: transparent; border: none; padding-inline: 0; …",
+    "description": "Square transparent icon button; drops the root inline padding so the icon keeps its width",
+    "example": "<button [data-variant=\"iconbox\"]>…</button>"
+  },
+  {
+    "class": "button[data-variant=\"iconbox\"][data-size=\"sm\"]",
+    "kind": "variant",
+    "parent": "button[data-variant=\"iconbox\"]",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "height: 20px; width: 20px",
+    "description": "height: 20px — attribute variant of button[data-variant=\"iconbox\"]",
+    "example": "<button [data-variant=\"iconbox\"][data-size=\"sm\"]>…</button>"
+  },
+  {
+    "class": "button[data-variant=\"iconbox\"][data-size=\"icon-md\"]",
+    "kind": "variant",
+    "parent": "button[data-variant=\"iconbox\"]",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "height: 24px; width: 24px",
+    "description": "height: 24px — attribute variant of button[data-variant=\"iconbox\"]",
+    "example": "<button [data-variant=\"iconbox\"][data-size=\"icon-md\"]>…</button>"
+  },
+  {
+    "class": "button[data-variant=\"iconbox\"][data-size=\"icon-bs\"]",
+    "kind": "variant",
+    "parent": "button[data-variant=\"iconbox\"]",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "height: 28px; width: 28px",
+    "description": "height: 28px — attribute variant of button[data-variant=\"iconbox\"]",
+    "example": "<button [data-variant=\"iconbox\"][data-size=\"icon-bs\"]>…</button>"
+  },
+  {
+    "class": "button[data-variant=\"iconbox\"][data-size=\"icon-lg\"]",
+    "kind": "variant",
+    "parent": "button[data-variant=\"iconbox\"]",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "height: 32px; width: 32px",
+    "description": "height: 32px — attribute variant of button[data-variant=\"iconbox\"]",
+    "example": "<button [data-variant=\"iconbox\"][data-size=\"icon-lg\"]>…</button>"
+  },
+  {
+    "class": "a.btn[data-variant=\"primary\"]",
+    "kind": "variant",
+    "parent": "a.btn",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "background: var(--theme-color); color: var(--white-fixed); border: 1px solid var(--theme-color)",
+    "description": "background: var(--theme-color) — attribute variant of a.btn",
+    "example": "<a class=\"btn\" href=\"…\">…</a>"
+  },
+  {
+    "class": "a.btn[data-variant=\"secondary\"]",
+    "kind": "variant",
+    "parent": "a.btn",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "background: var(--state-surface); color: var(--text-primary); border: 1px solid var(--border-strong)",
+    "description": "background: var(--state-surface) — attribute variant of a.btn",
+    "example": "<a class=\"btn\" href=\"…\">…</a>"
+  },
+  {
+    "class": "a.btn[data-variant=\"soft\"]",
+    "kind": "variant",
+    "parent": "a.btn",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "background: var(--theme-color-sub); color: var(--white-fixed); border: 1px solid var(--theme-color-sub)",
+    "description": "background: var(--theme-color-sub) — attribute variant of a.btn",
+    "example": "<a class=\"btn\" href=\"…\">…</a>"
+  },
+  {
+    "class": "a.btn[data-variant=\"outline\"]",
+    "kind": "variant",
+    "parent": "a.btn",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "background: var(--bg); color: var(--text-primary); border: 1px solid var(--border-strong)",
+    "description": "background: var(--bg) — attribute variant of a.btn",
+    "example": "<a class=\"btn\" href=\"…\">…</a>"
+  },
+  {
+    "class": "a.btn[data-variant=\"ghost\"]",
+    "kind": "variant",
+    "parent": "a.btn",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "background: transparent; color: var(--text-primary); border: none",
+    "description": "background: transparent — attribute variant of a.btn",
+    "example": "<a class=\"btn\" href=\"…\">…</a>"
+  },
+  {
+    "class": "a.btn[data-variant=\"link\"]",
+    "kind": "variant",
+    "parent": "a.btn",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "background: transparent; color: var(--theme-color); border: none",
+    "description": "background: transparent — attribute variant of a.btn",
+    "example": "<a class=\"btn\" href=\"…\">…</a>"
+  },
+  {
+    "class": "a.btn[data-variant=\"destructive\"]",
+    "kind": "variant",
+    "parent": "a.btn",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "background: var(--danger); color: var(--white-fixed); border: 1px solid var(--danger)",
+    "description": "background: var(--danger) — attribute variant of a.btn",
+    "example": "<a class=\"btn\" href=\"…\">…</a>"
+  },
+  {
+    "class": "a.btn[data-shape=\"square\"]",
+    "kind": "variant",
+    "parent": "a.btn",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "border-radius: 0",
+    "description": "border-radius: 0 — attribute variant of a.btn",
+    "example": "<a class=\"btn\" href=\"…\">…</a>"
+  },
+  {
+    "class": "a.btn[data-shape=\"modern\"]",
+    "kind": "variant",
+    "parent": "a.btn",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "border-radius: var(--radius-sm)",
+    "description": "border-radius: var(--radius-sm) — attribute variant of a.btn",
+    "example": "<a class=\"btn\" href=\"…\">…</a>"
+  },
+  {
+    "class": "a.btn[data-shape=\"curved\"]",
+    "kind": "variant",
+    "parent": "a.btn",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "border-radius: var(--radius-md)",
+    "description": "border-radius: var(--radius-md) — attribute variant of a.btn",
+    "example": "<a class=\"btn\" href=\"…\">…</a>"
+  },
+  {
+    "class": "a.btn[data-shape=\"round\"]",
+    "kind": "variant",
+    "parent": "a.btn",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "border-radius: var(--radius-full)",
+    "description": "border-radius: var(--radius-full) — attribute variant of a.btn",
+    "example": "<a class=\"btn\" href=\"…\">…</a>"
+  },
+  {
+    "class": "a.btn[data-size=\"sm\"]",
+    "kind": "variant",
+    "parent": "a.btn",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "height: var(--height-sm); font-size: var(--text-sm)",
+    "description": "height: var(--height-sm) — attribute variant of a.btn",
+    "example": "<a class=\"btn\" href=\"…\">…</a>"
+  },
+  {
+    "class": "a.btn[data-size=\"md\"]",
+    "kind": "variant",
+    "parent": "a.btn",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "height: var(--height-md); font-size: var(--text-md)",
+    "description": "height: var(--height-md) — attribute variant of a.btn",
+    "example": "<a class=\"btn\" href=\"…\">…</a>"
+  },
+  {
+    "class": "a.btn[data-size=\"bs\"]",
+    "kind": "variant",
+    "parent": "a.btn",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "height: var(--height-bs); font-size: var(--text-bs)",
+    "description": "height: var(--height-bs) — attribute variant of a.btn",
+    "example": "<a class=\"btn\" href=\"…\">…</a>"
+  },
+  {
+    "class": "a.btn[data-size=\"lg\"]",
+    "kind": "variant",
+    "parent": "a.btn",
+    "file": "_07_interactions.sass",
+    "layer": "L5",
+    "property": "height: var(--height-lg); font-size: var(--text-bs)",
+    "description": "height: var(--height-lg) — attribute variant of a.btn",
+    "example": "<a class=\"btn\" href=\"…\">…</a>"
+  },
+  {
+    "class": ".bg-main",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "background: var(--bg)",
+    "description": "Bare background — page base fill (var(--bg))",
+    "example": "<div class=\"bg-main\">…</div>"
+  },
+  {
+    "class": ".bg-surface",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "background: var(--bg-surface)",
+    "description": "Bare background — surface fill (var(--bg-surface))",
+    "example": "<div class=\"bg-surface\">…</div>"
+  },
+  {
+    "class": ".bg-panel",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "background: var(--bg-panel)",
+    "description": "Bare background — panel fill (var(--bg-panel))",
+    "example": "<div class=\"bg-panel\">…</div>"
+  },
+  {
+    "class": ".bg-sunken",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "background: var(--bg-sunken)",
+    "description": "Bare background — sunken fill (var(--bg-sunken))",
+    "example": "<div class=\"bg-sunken\">…</div>"
+  },
+  {
+    "class": ".bg-raised",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "background: var(--bg-raised)",
+    "description": "Bare background — raised fill (var(--bg-raised))",
+    "example": "<div class=\"bg-raised\">…</div>"
+  },
+  {
+    "class": ".bg-extra",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "background: var(--bg-extra)",
+    "description": "Bare background — extra fill (var(--bg-extra))",
+    "example": "<div class=\"bg-extra\">…</div>"
+  },
+  {
+    "class": ".text-primary",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "color: var(--text-primary)",
+    "description": "color: var(--text-primary)",
+    "example": "<div class=\"text-primary\">…</div>"
+  },
+  {
+    "class": ".text-secondary",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "color: var(--text-secondary)",
+    "description": "color: var(--text-secondary)",
+    "example": "<div class=\"text-secondary\">…</div>"
+  },
+  {
+    "class": ".text-muted",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "color: var(--text-muted)",
+    "description": "color: var(--text-muted)",
+    "example": "<div class=\"text-muted\">…</div>"
+  },
+  {
+    "class": ".text-inverse",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "color: var(--text-inverse)",
+    "description": "color: var(--text-inverse)",
+    "example": "<div class=\"text-inverse\">…</div>"
+  },
+  {
+    "class": ".text-white",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "color: var(--white-fixed)",
+    "description": "color: var(--white-fixed)",
+    "example": "<div class=\"text-white\">…</div>"
+  },
+  {
+    "class": ".text-black",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "color: var(--black-fixed)",
+    "description": "color: var(--black-fixed)",
+    "example": "<div class=\"text-black\">…</div>"
+  },
+  {
+    "class": ".text-theme",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "color: var(--theme-color)",
+    "description": "color: var(--theme-color)",
+    "example": "<div class=\"text-theme\">…</div>"
+  },
+  {
+    "class": ".text-theme-alt",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "color: var(--theme-color-alt)",
+    "description": "color: var(--theme-color-alt)",
+    "example": "<div class=\"text-theme-alt\">…</div>"
+  },
+  {
+    "class": ".text-theme-sub",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "color: var(--theme-color-sub)",
+    "description": "color: var(--theme-color-sub)",
+    "example": "<div class=\"text-theme-sub\">…</div>"
+  },
+  {
+    "class": ".text-success",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "color: var(--success)",
+    "description": "color: var(--success)",
+    "example": "<div class=\"text-success\">…</div>"
+  },
+  {
+    "class": ".text-warning",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "color: var(--warning)",
+    "description": "color: var(--warning)",
+    "example": "<div class=\"text-warning\">…</div>"
+  },
+  {
+    "class": ".text-danger",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "color: var(--danger)",
+    "description": "color: var(--danger)",
+    "example": "<div class=\"text-danger\">…</div>"
+  },
+  {
+    "class": ".text-info",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "color: var(--info)",
+    "description": "color: var(--info)",
+    "example": "<div class=\"text-info\">…</div>"
+  },
+  {
+    "class": ".bg-success",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "background: var(--success); transition: background var(--motionout2)",
+    "description": "Status fills, mirroring the status inks above. A dot or chip that carries the",
+    "example": "<div class=\"bg-success\">…</div>"
+  },
+  {
+    "class": ".bg-warning",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "background: var(--warning); transition: background var(--motionout2)",
+    "description": "background: var(--warning)",
+    "example": "<div class=\"bg-warning\">…</div>"
+  },
+  {
+    "class": ".bg-danger",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "background: var(--danger); transition: background var(--motionout2)",
+    "description": "background: var(--danger)",
+    "example": "<div class=\"bg-danger\">…</div>"
+  },
+  {
+    "class": ".bg-info",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "background: var(--info); transition: background var(--motionout2)",
+    "description": "background: var(--info)",
+    "example": "<div class=\"bg-info\">…</div>"
+  },
+  {
+    "class": ".border",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "border: 1px solid var(--border)",
+    "description": "Full border, standard weight (var(--border))",
+    "example": "<div class=\"border\">…</div>"
+  },
+  {
+    "class": ".border-subtle",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "border: 1px solid var(--border-subtle)",
+    "description": "Full border, subtle weight (var(--border-subtle))",
+    "example": "<div class=\"border-subtle\">…</div>"
+  },
+  {
+    "class": ".border-strong",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "border: 1px solid var(--border-strong)",
+    "description": "Full border, strong weight (var(--border-strong))",
+    "example": "<div class=\"border-strong\">…</div>"
+  },
+  {
+    "class": ".bt",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "border-top: 1px solid var(--border)",
+    "description": "border-top: 1px solid var(--border)",
+    "example": "<div class=\"bt\">…</div>"
+  },
+  {
+    "class": ".br",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "border-right: 1px solid var(--border)",
+    "description": "border-right: 1px solid var(--border)",
+    "example": "<div class=\"br\">…</div>"
+  },
+  {
+    "class": ".bb",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "border-bottom: 1px solid var(--border)",
+    "description": "border-bottom: 1px solid var(--border)",
+    "example": "<div class=\"bb\">…</div>"
+  },
+  {
+    "class": ".bl",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "border-left: 1px solid var(--border)",
+    "description": "border-left: 1px solid var(--border)",
+    "example": "<div class=\"bl\">…</div>"
+  },
+  {
+    "class": ".bt-str",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "border-top: 1px solid var(--border-strong)",
+    "description": "border-top: 1px solid var(--border-strong)",
+    "example": "<div class=\"bt-str\">…</div>"
+  },
+  {
+    "class": ".br-str",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "border-right: 1px solid var(--border-strong)",
+    "description": "border-right: 1px solid var(--border-strong)",
+    "example": "<div class=\"br-str\">…</div>"
+  },
+  {
+    "class": ".bb-str",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "border-bottom: 1px solid var(--border-strong)",
+    "description": "border-bottom: 1px solid var(--border-strong)",
+    "example": "<div class=\"bb-str\">…</div>"
+  },
+  {
+    "class": ".bl-str",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "border-left: 1px solid var(--border-strong)",
+    "description": "border-left: 1px solid var(--border-strong)",
+    "example": "<div class=\"bl-str\">…</div>"
+  },
+  {
+    "class": ".bt-sub",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "border-top: 1px solid var(--border-subtle)",
+    "description": "border-top: 1px solid var(--border-subtle)",
+    "example": "<div class=\"bt-sub\">…</div>"
+  },
+  {
+    "class": ".br-sub",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "border-right: 1px solid var(--border-subtle)",
+    "description": "border-right: 1px solid var(--border-subtle)",
+    "example": "<div class=\"br-sub\">…</div>"
+  },
+  {
+    "class": ".bb-sub",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "border-bottom: 1px solid var(--border-subtle)",
+    "description": "border-bottom: 1px solid var(--border-subtle)",
+    "example": "<div class=\"bb-sub\">…</div>"
+  },
+  {
+    "class": ".bl-sub",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "border-left: 1px solid var(--border-subtle)",
+    "description": "border-left: 1px solid var(--border-subtle)",
+    "example": "<div class=\"bl-sub\">…</div>"
+  },
+  {
+    "class": ".shadow-xs",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "box-shadow: var(--shadow-xs)",
+    "description": "box-shadow: var(--shadow-xs)",
+    "example": "<div class=\"shadow-xs\">…</div>"
+  },
+  {
+    "class": ".shadow-sm",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "box-shadow: var(--shadow-sm)",
+    "description": "box-shadow: var(--shadow-sm)",
+    "example": "<div class=\"shadow-sm\">…</div>"
+  },
+  {
+    "class": ".shadow-md",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "box-shadow: var(--shadow-md)",
+    "description": "box-shadow: var(--shadow-md)",
+    "example": "<div class=\"shadow-md\">…</div>"
+  },
+  {
+    "class": ".shadow-bs",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "box-shadow: var(--shadow-bs)",
+    "description": "box-shadow: var(--shadow-bs)",
+    "example": "<div class=\"shadow-bs\">…</div>"
+  },
+  {
+    "class": ".shadow-lg",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "box-shadow: var(--shadow-lg)",
+    "description": "box-shadow: var(--shadow-lg)",
+    "example": "<div class=\"shadow-lg\">…</div>"
+  },
+  {
+    "class": ".shadow-xl",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "box-shadow: var(--shadow-xl)",
+    "description": "box-shadow: var(--shadow-xl)",
+    "example": "<div class=\"shadow-xl\">…</div>"
+  },
+  {
+    "class": ".shadow-2xl",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "box-shadow: var(--shadow-2xl)",
+    "description": "box-shadow: var(--shadow-2xl)",
+    "example": "<div class=\"shadow-2xl\">…</div>"
+  },
+  {
+    "class": ".shadow-3xl",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "box-shadow: var(--shadow-3xl)",
+    "description": "box-shadow: var(--shadow-3xl)",
+    "example": "<div class=\"shadow-3xl\">…</div>"
+  },
+  {
+    "class": ".hide-mobile",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "@max-width:1024px: display: none",
+    "description": "Display none at ≤1024px",
+    "example": "<div class=\"hide-mobile\">…</div>"
+  },
+  {
+    "class": ".hide-desktop",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "@min-width:1025px: display: none",
+    "description": "Display none at ≥1025px",
+    "example": "<div class=\"hide-desktop\">…</div>"
+  },
+  {
+    "class": ".orange1",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "color: var(--orangepop1)",
+    "description": "special color classes",
+    "example": "<div class=\"orange1\">…</div>"
+  },
+  {
+    "class": ".orange2",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "color: var(--orangepop2)",
+    "description": "color: var(--orangepop2)",
+    "example": "<div class=\"orange2\">…</div>"
+  },
+  {
+    "class": ".orange3",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "color: var(--orangepop3)",
+    "description": "color: var(--orangepop3)",
+    "example": "<div class=\"orange3\">…</div>"
+  },
+  {
+    "class": ".orange4",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "color: var(--orangepop4)",
+    "description": "color: var(--orangepop4)",
+    "example": "<div class=\"orange4\">…</div>"
+  },
+  {
+    "class": ".orange5",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "color: var(--orangepop5)",
+    "description": "color: var(--orangepop5)",
+    "example": "<div class=\"orange5\">…</div>"
+  },
+  {
+    "class": ".orange6",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "color: var(--orangepop6)",
+    "description": "color: var(--orangepop6)",
+    "example": "<div class=\"orange6\">…</div>"
+  },
+  {
+    "class": ".yellow1",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "color: var(--yellowpop1)",
+    "description": "color: var(--yellowpop1)",
+    "example": "<div class=\"yellow1\">…</div>"
+  },
+  {
+    "class": ".yellow2",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "color: var(--yellowpop2)",
+    "description": "color: var(--yellowpop2)",
+    "example": "<div class=\"yellow2\">…</div>"
+  },
+  {
+    "class": ".yellow3",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "color: var(--yellowpop3)",
+    "description": "color: var(--yellowpop3)",
+    "example": "<div class=\"yellow3\">…</div>"
+  },
+  {
+    "class": ".yellow4",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "color: var(--yellowpop4)",
+    "description": "color: var(--yellowpop4)",
+    "example": "<div class=\"yellow4\">…</div>"
+  },
+  {
+    "class": ".green1",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "color: var(--greenpop1)",
+    "description": "color: var(--greenpop1)",
+    "example": "<div class=\"green1\">…</div>"
+  },
+  {
+    "class": ".green2",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "color: var(--greenpop2)",
+    "description": "color: var(--greenpop2)",
+    "example": "<div class=\"green2\">…</div>"
+  },
+  {
+    "class": ".green3",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "color: var(--greenpop3)",
+    "description": "color: var(--greenpop3)",
+    "example": "<div class=\"green3\">…</div>"
+  },
+  {
+    "class": ".green4",
+    "kind": "class",
+    "parent": null,
+    "file": "_08_visuals.sass",
+    "layer": "L5",
+    "property": "color: var(--greenpop4)",
+    "description": "color: var(--greenpop4)",
+    "example": "<div class=\"green4\">…</div>"
+  },
+  {
+    "class": ".site-logomotif",
+    "kind": "class",
+    "parent": null,
+    "file": "_09_own.sass",
+    "layer": "Custom",
+    "property": "height: 48px; transform-origin: center center; transition: transform 210ms var(--transin2)",
+    "description": "Site logo motif — 48px, scales 1.2 on hover",
+    "example": "<div class=\"site-logomotif\">…</div>"
+  },
+  {
+    "class": ".logotype",
+    "kind": "class",
+    "parent": null,
+    "file": "_09_own.sass",
+    "layer": "Custom",
+    "property": "height: 28px",
+    "description": "Logotype — 28px wordmark",
+    "example": "<div class=\"logotype\">…</div>"
+  },
+  {
+    "class": ".project-circle",
+    "kind": "class",
+    "parent": null,
+    "file": "_09_own.sass",
+    "layer": "Custom",
+    "property": "border-radius: 24px; width: 16px; height: 16px",
+    "description": "Project dot — 16px circle",
+    "example": "<div class=\"project-circle\">…</div>"
+  },
+  {
+    "class": ".mascot",
+    "kind": "class",
+    "parent": null,
+    "file": "_09_own.sass",
+    "layer": "Custom",
+    "property": "display: inline-block; position: relative; flex: none; …",
+    "description": "Mascot (src/lib/comps/Mascot.svelte): CSS-only \"3D feel\" logo.",
+    "example": "<div class=\"mascot\">…</div>"
+  },
+  {
+    "class": ".mascot-bob",
+    "kind": "class",
+    "parent": null,
+    "file": "_09_own.sass",
+    "layer": "Custom",
+    "property": "display: block",
+    "description": "display: block",
+    "example": "<div class=\"mascot-bob\">…</div>"
+  },
+  {
+    "class": ".mascot-tilt",
+    "kind": "class",
+    "parent": null,
+    "file": "_09_own.sass",
+    "layer": "Custom",
+    "property": "display: block",
+    "description": "display: block",
+    "example": "<div class=\"mascot-tilt\">…</div>"
+  },
+  {
+    "class": ".mascot-bobs .mascot-bob",
+    "kind": "compound",
+    "parent": null,
+    "file": "_09_own.sass",
+    "layer": "Custom",
+    "property": "animation: mascot-bob 3.6s ease-in-out infinite alternate",
+    "description": "animation: mascot-bob 3.6s ease-in-out infinite alternate — combination rule (mascot-bobs mascot-bob)",
+    "example": "<div class=\"mascot-bobs\"><div class=\"mascot-bob\">…</div></div>"
+  },
+  {
+    "class": ".mascot-base",
+    "kind": "class",
+    "parent": null,
+    "file": "_09_own.sass",
+    "layer": "Custom",
+    "property": "display: block; user-select: none; -webkit-user-drag: none",
+    "description": "display: block",
+    "example": "<div class=\"mascot-base\">…</div>"
+  },
+  {
+    "class": ".mascot-overlay",
+    "kind": "class",
+    "parent": null,
+    "file": "_09_own.sass",
+    "layer": "Custom",
+    "property": "position: absolute; inset: 0; width: 100%; …",
+    "description": "position: absolute",
+    "example": "<div class=\"mascot-overlay\">…</div>"
+  },
+  {
+    "class": ".mascot-mask",
+    "kind": "class",
+    "parent": null,
+    "file": "_09_own.sass",
+    "layer": "Custom",
+    "property": "mask-type: alpha",
+    "description": "mask-type: alpha",
+    "example": "<div class=\"mascot-mask\">…</div>"
+  },
+  {
+    "class": ".mascot-pupil-l",
+    "kind": "class",
+    "parent": null,
+    "file": "_09_own.sass",
+    "layer": "Custom",
+    "property": "transform: translate(calc(var(--mascot-plx, 0) * 1px), calc(var(--mas…",
+    "description": "transform: translate(calc(var(--mascot-plx, 0) * 1px), calc(var(--mas…",
+    "example": "<div class=\"mascot-pupil-l\">…</div>"
+  },
+  {
+    "class": ".mascot-pupil-r",
+    "kind": "class",
+    "parent": null,
+    "file": "_09_own.sass",
+    "layer": "Custom",
+    "property": "transform: translate(calc(var(--mascot-prx, 0) * 1px), calc(var(--mas…",
+    "description": "transform: translate(calc(var(--mascot-prx, 0) * 1px), calc(var(--mas…",
+    "example": "<div class=\"mascot-pupil-r\">…</div>"
+  },
+  {
+    "class": ".mascot-gloss",
+    "kind": "class",
+    "parent": null,
+    "file": "_09_own.sass",
+    "layer": "Custom",
+    "property": "opacity: 0.42; transform: translate(calc(var(--mascot-gx, 400) * 1px), calc(var(--ma…",
+    "description": "opacity: 0.42",
+    "example": "<div class=\"mascot-gloss\">…</div>"
+  },
+  {
+    "class": ".mascot-shade",
+    "kind": "class",
+    "parent": null,
+    "file": "_09_own.sass",
+    "layer": "Custom",
+    "property": "opacity: 0.55; transform: translate(calc((1024 - var(--mascot-gx, 400)) * 1px), calc…",
+    "description": "opacity: 0.55",
+    "example": "<div class=\"mascot-shade\">…</div>"
+  },
+  {
+    "class": ".mascot-blinks .mascot-lid",
+    "kind": "compound",
+    "parent": null,
+    "file": "_09_own.sass",
+    "layer": "Custom",
+    "property": "animation: mascot-blink 5.2s ease-in-out infinite",
+    "description": "animation: mascot-blink 5.2s ease-in-out infinite — combination rule (mascot-blinks mascot-lid)",
+    "example": "<div class=\"mascot-blinks\"><div class=\"mascot-lid\">…</div></div>"
+  },
+  {
+    "class": ".mascotgl",
+    "kind": "class",
+    "parent": null,
+    "file": "_09_own.sass",
+    "layer": "Custom",
+    "property": "display: inline-block; position: relative; flex: none; …",
+    "description": "MascotGL (src/lib/comps/MascotGL.svelte): WebGL2 lab version of the mascot.",
+    "example": "<div class=\"mascotgl\">…</div>"
+  },
+  {
+    "class": ".mascotgl-spacer",
+    "kind": "class",
+    "parent": null,
+    "file": "_09_own.sass",
+    "layer": "Custom",
+    "property": "display: block",
+    "description": "display: block",
+    "example": "<div class=\"mascotgl-spacer\">…</div>"
+  },
+  {
+    "class": ".mascotgl-canvas",
+    "kind": "class",
+    "parent": null,
+    "file": "_09_own.sass",
+    "layer": "Custom",
+    "property": "position: absolute; left: 50%; top: 50%; …",
+    "description": "position: absolute",
+    "example": "<div class=\"mascotgl-canvas\">…</div>"
+  },
+  {
+    "class": ".mascotgl-ready",
+    "kind": "class",
+    "parent": null,
+    "file": "_09_own.sass",
+    "layer": "Custom",
+    "property": "opacity: 1",
+    "description": "opacity: 1",
+    "example": "<div class=\"mascotgl-ready\">…</div>"
+  },
+  {
+    "class": ".mascotgl-compact .mascotgl-canvas",
+    "kind": "compound",
+    "parent": null,
+    "file": "_09_own.sass",
+    "layer": "Custom",
+    "property": "width: 130%; height: 130%",
+    "description": "Header-sized: 15% overhang per side (EXTENT_COMPACT = 0.65), still outside the layout box.",
+    "example": "<div class=\"mascotgl-compact\"><div class=\"mascotgl-canvas\">…</div></div>"
+  },
+  {
+    "class": ".hero-name",
+    "kind": "class",
+    "parent": null,
+    "file": "_09_own.sass",
+    "layer": "Custom",
+    "property": "font-weight: 800; font-size: calc(var(--text-5xl) * 2); letter-spacing: -0.2rem",
+    "description": "Hero display name — text-5xl doubled, 800, tight tracking",
+    "example": "<div class=\"hero-name\">…</div>"
+  },
+  {
+    "class": ".fsx-accordion",
+    "kind": "class",
+    "parent": null,
+    "file": "_09_own.sass",
+    "layer": "Custom",
+    "property": "display: flex; flex-direction: column; gap: var(--space-xs)",
+    "description": "Accordion group — vertical stack of .fsx-accordion-item",
+    "example": "<div class=\"fsx-accordion\">…</div>"
+  },
+  {
+    "class": ".fsx-accordion-item",
+    "kind": "class",
+    "parent": null,
+    "file": "_09_own.sass",
+    "layer": "Custom",
+    "property": "",
+    "description": "Accordion item — bordered, styled shell hosting trigger and content with data-variant/data-shape/data-size axes",
+    "example": "<div class=\"fsx-accordion-item\">…</div>"
+  },
+  {
+    "class": ".fsx-accordion-content",
+    "kind": "child",
+    "parent": ".fsx-accordion-item",
+    "file": "_09_own.sass",
+    "layer": "Custom",
+    "property": "display: grid; grid-template-rows: 0fr; padding: 0; …",
+    "description": "Collapsible region of an .fsx-accordion-item — 0fr→1fr grid transition",
+    "example": "<div class=\"fsx-accordion-content\">…</div>"
+  },
+  {
+    "class": ".fsx-accordion-panel",
+    "kind": "child",
+    "parent": ".fsx-accordion-item",
+    "file": "_09_own.sass",
+    "layer": "Custom",
+    "property": "overflow: hidden; min-height: 0",
+    "description": "The panel is what collapses. It needs min-height: 0 so the grid row can",
+    "example": "<div class=\"fsx-accordion-panel\">…</div>"
+  },
+  {
+    "class": ".fsx-accordion-item.open .fsx-accordion-content",
+    "kind": "compound",
+    "parent": ".fsx-accordion-item",
+    "file": "_09_own.sass",
+    "layer": "Custom",
+    "property": "grid-template-rows: 1fr; padding: var(--space-sm)",
+    "description": "grid-template-rows: 1fr — combination rule (fsx-accordion-itemopen fsx-accordion-content)",
+    "example": "<div class=\"fsx-accordion-item open\"><div class=\"fsx-accordion-content\">…</div></div>"
+  },
+  {
+    "class": ".fsx-accordion-item[data-variant=\"primary\"]",
+    "kind": "variant",
+    "parent": ".fsx-accordion-item",
+    "file": "_09_own.sass",
+    "layer": "Custom",
+    "property": "background: var(--bg-panel); border: 1px solid var(--border); color: var(--text-primary)",
+    "description": "background: var(--bg-panel) — attribute variant of .fsx-accordion-item",
+    "example": "<div class=\"fsx-accordion-item\">…</div>"
+  },
+  {
+    "class": ".fsx-accordion-item[data-variant=\"secondary\"]",
+    "kind": "variant",
+    "parent": ".fsx-accordion-item",
+    "file": "_09_own.sass",
+    "layer": "Custom",
+    "property": "background: var(--bg-sunken); color: var(--text-secondary); border: 1px solid var(--border)",
+    "description": "background: var(--bg-sunken) — attribute variant of .fsx-accordion-item",
+    "example": "<div class=\"fsx-accordion-item\">…</div>"
+  },
+  {
+    "class": ".fsx-accordion-item[data-variant=\"soft\"]",
+    "kind": "variant",
+    "parent": ".fsx-accordion-item",
+    "file": "_09_own.sass",
+    "layer": "Custom",
+    "property": "background: var(--theme-color-sub); color: #191512; border: 1px solid var(--theme-color-sub)",
+    "description": "background: var(--theme-color-sub) — attribute variant of .fsx-accordion-item",
+    "example": "<div class=\"fsx-accordion-item\">…</div>"
+  },
+  {
+    "class": ".fsx-accordion-item[data-variant=\"outline\"]",
+    "kind": "variant",
+    "parent": ".fsx-accordion-item",
+    "file": "_09_own.sass",
+    "layer": "Custom",
+    "property": "background: var(--bg); color: var(--text-primary); border: 1px solid var(--border-strong)",
+    "description": "background: var(--bg) — attribute variant of .fsx-accordion-item",
+    "example": "<div class=\"fsx-accordion-item\">…</div>"
+  },
+  {
+    "class": ".fsx-accordion-item[data-variant=\"ghost\"]",
+    "kind": "variant",
+    "parent": ".fsx-accordion-item",
+    "file": "_09_own.sass",
+    "layer": "Custom",
+    "property": "background: transparent; color: var(--text-primary); border: none",
+    "description": "background: transparent — attribute variant of .fsx-accordion-item",
+    "example": "<div class=\"fsx-accordion-item\">…</div>"
+  },
+  {
+    "class": ".fsx-accordion-item[data-variant=\"link\"]",
+    "kind": "variant",
+    "parent": ".fsx-accordion-item",
+    "file": "_09_own.sass",
+    "layer": "Custom",
+    "property": "background: transparent; color: var(--theme-color); border: none",
+    "description": "background: transparent — attribute variant of .fsx-accordion-item",
+    "example": "<div class=\"fsx-accordion-item\">…</div>"
+  },
+  {
+    "class": ".fsx-accordion-item[data-variant=\"destructive\"]",
+    "kind": "variant",
+    "parent": ".fsx-accordion-item",
+    "file": "_09_own.sass",
+    "layer": "Custom",
+    "property": "background: var(--danger); color: var(--white-fixed); border: 1px solid var(--danger)",
+    "description": "background: var(--danger) — attribute variant of .fsx-accordion-item",
+    "example": "<div class=\"fsx-accordion-item\">…</div>"
+  },
+  {
+    "class": ".fsx-accordion-item[data-shape=\"modern\"]",
+    "kind": "variant",
+    "parent": ".fsx-accordion-item",
+    "file": "_09_own.sass",
+    "layer": "Custom",
+    "property": "border-radius: var(--radius-sm)",
+    "description": "border-radius: var(--radius-sm) — attribute variant of .fsx-accordion-item",
+    "example": "<div class=\"fsx-accordion-item\">…</div>"
+  },
+  {
+    "class": ".fsx-accordion-item[data-shape=\"curved\"]",
+    "kind": "variant",
+    "parent": ".fsx-accordion-item",
+    "file": "_09_own.sass",
+    "layer": "Custom",
+    "property": "border-radius: var(--radius-md)",
+    "description": "border-radius: var(--radius-md) — attribute variant of .fsx-accordion-item",
+    "example": "<div class=\"fsx-accordion-item\">…</div>"
+  },
+  {
+    "class": ".fsx-accordion-item[data-shape=\"round\"]",
+    "kind": "variant",
+    "parent": ".fsx-accordion-item",
+    "file": "_09_own.sass",
+    "layer": "Custom",
+    "property": "border-radius: var(--radius-full)",
+    "description": "border-radius: var(--radius-full) — attribute variant of .fsx-accordion-item",
+    "example": "<div class=\"fsx-accordion-item\">…</div>"
+  },
+  {
+    "class": ".fsx-accordion-item[data-size=\"sm\"]",
+    "kind": "variant",
+    "parent": ".fsx-accordion-item",
+    "file": "_09_own.sass",
+    "layer": "Custom",
+    "property": "height: var(--height-sm); font-size: var(--text-sm)",
+    "description": "height: var(--height-sm) — attribute variant of .fsx-accordion-item",
+    "example": "<div class=\"fsx-accordion-item\">…</div>"
+  },
+  {
+    "class": ".fsx-accordion-item[data-size=\"md\"]",
+    "kind": "variant",
+    "parent": ".fsx-accordion-item",
+    "file": "_09_own.sass",
+    "layer": "Custom",
+    "property": "height: var(--height-md); font-size: var(--text-md)",
+    "description": "height: var(--height-md) — attribute variant of .fsx-accordion-item",
+    "example": "<div class=\"fsx-accordion-item\">…</div>"
+  },
+  {
+    "class": ".fsx-accordion-item[data-size=\"bs\"]",
+    "kind": "variant",
+    "parent": ".fsx-accordion-item",
+    "file": "_09_own.sass",
+    "layer": "Custom",
+    "property": "height: var(--height-bs); font-size: var(--text-bs)",
+    "description": "height: var(--height-bs) — attribute variant of .fsx-accordion-item",
+    "example": "<div class=\"fsx-accordion-item\">…</div>"
+  },
+  {
+    "class": ".fsx-accordion-item[data-size=\"lg\"]",
+    "kind": "variant",
+    "parent": ".fsx-accordion-item",
+    "file": "_09_own.sass",
+    "layer": "Custom",
+    "property": "height: var(--height-lg); font-size: var(--text-bs)",
+    "description": "height: var(--height-lg) — attribute variant of .fsx-accordion-item",
+    "example": "<div class=\"fsx-accordion-item\">…</div>"
+  },
+  {
+    "class": ".fsx-accordion-trigger",
+    "kind": "class",
+    "parent": null,
+    "file": "_09_own.sass",
+    "layer": "Custom",
+    "property": "display: flex; flex-direction: row; align-items: center; …",
+    "description": "Accordion trigger button — full-width, hover/focus states",
+    "example": "<div class=\"fsx-accordion-trigger\">…</div>"
+  }
+]

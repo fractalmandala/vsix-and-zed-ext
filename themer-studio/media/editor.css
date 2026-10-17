@@ -1,0 +1,387 @@
+:root {
+  --gap: 10px;
+  --radius: 6px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--vscode-font-family);
+  font-size: var(--vscode-font-size);
+  color: var(--vscode-foreground);
+  background: var(--vscode-editor-background);
+}
+
+.muted {
+  color: var(--vscode-descriptionForeground);
+  font-size: 0.85em;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.bar {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--vscode-panel-border);
+  background: var(--vscode-editor-background);
+}
+
+.identity {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.identity strong {
+  font-size: 1.05em;
+}
+
+.contrast {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.grade {
+  padding: 2px 7px;
+  border-radius: 999px;
+  font-size: 0.75em;
+  border: 1px solid transparent;
+}
+
+.grade.aaa {
+  background: color-mix(in srgb, var(--vscode-charts-green) 25%, transparent);
+  border-color: var(--vscode-charts-green);
+}
+
+.grade.aa {
+  background: color-mix(in srgb, var(--vscode-charts-yellow) 22%, transparent);
+  border-color: var(--vscode-charts-yellow);
+}
+
+.grade.fail {
+  background: color-mix(in srgb, var(--vscode-charts-red) 22%, transparent);
+  border-color: var(--vscode-charts-red);
+}
+
+.actions {
+  display: flex;
+  gap: 6px;
+  margin-left: auto;
+  flex-wrap: wrap;
+}
+
+button {
+  font-family: inherit;
+  font-size: 0.9em;
+  padding: 5px 11px;
+  border-radius: var(--radius);
+  border: 1px solid transparent;
+  background: var(--vscode-button-background);
+  color: var(--vscode-button-foreground);
+  cursor: pointer;
+}
+
+button:hover {
+  background: var(--vscode-button-hoverBackground);
+}
+
+button.ghost {
+  background: transparent;
+  color: var(--vscode-foreground);
+  border-color: var(--vscode-panel-border);
+}
+
+button.ghost:hover {
+  background: var(--vscode-toolbar-hoverBackground);
+}
+
+button.active {
+  background: var(--vscode-charts-green);
+  color: var(--vscode-editor-background);
+}
+
+button:disabled {
+  opacity: 0.45;
+  cursor: default;
+  pointer-events: none;
+}
+
+button.tiny {
+  padding: 2px 7px;
+  font-size: 0.78em;
+}
+
+.content {
+  padding: 18px 16px 48px;
+}
+
+h2 {
+  margin: 0 0 4px;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.hint {
+  margin: 0 0 12px;
+  color: var(--vscode-descriptionForeground);
+  font-size: 0.85em;
+}
+
+.palette {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--gap);
+  margin-bottom: 28px;
+}
+
+.swatch-card {
+  display: grid;
+  grid-template-columns: 34px 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 2px 10px;
+  align-items: center;
+  padding: 10px;
+  text-align: left;
+  background: var(--vscode-sideBar-background);
+  color: var(--vscode-foreground);
+  border: 1px solid var(--vscode-panel-border);
+}
+
+.swatch-card:hover {
+  border-color: var(--vscode-focusBorder);
+  background: var(--vscode-list-hoverBackground);
+}
+
+.swatch-card .chip {
+  grid-row: 1 / span 2;
+  width: 34px;
+  height: 34px;
+  border-radius: var(--radius);
+  border: 1px solid var(--vscode-panel-border);
+}
+
+.card-name {
+  font-weight: 600;
+  font-size: 0.9em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.card-hex {
+  font-family: var(--vscode-editor-font-family);
+  font-size: 0.82em;
+  color: var(--vscode-descriptionForeground);
+}
+
+.card-meta {
+  grid-column: 2;
+  font-size: 0.75em;
+  color: var(--vscode-descriptionForeground);
+}
+
+.chip {
+  display: inline-block;
+  background-image:
+    linear-gradient(45deg, rgba(128, 128, 128, 0.35) 25%, transparent 25%),
+    linear-gradient(-45deg, rgba(128, 128, 128, 0.35) 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, rgba(128, 128, 128, 0.35) 75%),
+    linear-gradient(-45deg, transparent 75%, rgba(128, 128, 128, 0.35) 75%);
+  background-size: 8px 8px;
+  background-position: 0 0, 0 4px, 4px -4px, -4px 0;
+}
+
+.tabs {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid var(--vscode-panel-border);
+  padding-bottom: 8px;
+}
+
+.tab {
+  background: transparent;
+  color: var(--vscode-foreground);
+  border-color: transparent;
+}
+
+.tab.active {
+  background: var(--vscode-list-activeSelectionBackground);
+  color: var(--vscode-list-activeSelectionForeground);
+}
+
+.token-section {
+  margin-bottom: 22px;
+}
+
+.group-title {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  margin: 20px 0 8px;
+  font-size: 0.8em;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--vscode-descriptionForeground);
+}
+
+.count {
+  color: var(--vscode-descriptionForeground);
+  font-weight: 400;
+}
+
+.token-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--gap);
+}
+
+/*
+ * Token cards are the palette card: same geometry, same hover, same stacked
+ * name / hex / meta rows, so nothing is squeezed onto one line and clipped.
+ */
+.token-card {
+  cursor: pointer;
+}
+
+.token-card .chip {
+  padding: 0;
+}
+
+.token-card .card-name {
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+.token-card .card-meta {
+  display: flex;
+  align-items: center;
+  min-height: 18px;
+}
+
+.source {
+  opacity: 0;
+}
+
+.token-card:hover .source,
+.source:focus-visible {
+  opacity: 1;
+}
+
+.popover {
+  position: fixed;
+  z-index: 20;
+  width: 320px;
+  padding: 14px;
+  border-radius: 8px;
+  border: 1px solid var(--vscode-widget-border, var(--vscode-panel-border));
+  background: var(--vscode-editorWidget-background);
+  box-shadow: 0 8px 24px var(--vscode-widget-shadow, rgba(0, 0, 0, 0.35));
+}
+
+.popover-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.popover-title {
+  font-weight: 600;
+}
+
+.close {
+  background: transparent;
+  color: var(--vscode-foreground);
+  border: none;
+  font-size: 1.2em;
+  line-height: 1;
+  padding: 0 4px;
+}
+
+#popoverMeta {
+  margin: 4px 0 12px;
+  word-break: break-all;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+input[type='color'] {
+  width: 44px;
+  height: 30px;
+  padding: 0;
+  border: 1px solid var(--vscode-panel-border);
+  border-radius: 4px;
+  background: transparent;
+  cursor: pointer;
+}
+
+input[type='text'] {
+  flex: 1;
+  padding: 5px 8px;
+  font-family: var(--vscode-editor-font-family);
+  color: var(--vscode-input-foreground);
+  background: var(--vscode-input-background);
+  border: 1px solid var(--vscode-input-border, var(--vscode-panel-border));
+  border-radius: 4px;
+}
+
+input[type='text'].invalid {
+  border-color: var(--vscode-inputValidation-errorBorder);
+}
+
+.alpha-row span {
+  width: 38px;
+  font-size: 0.82em;
+  color: var(--vscode-descriptionForeground);
+}
+
+.alpha-row input[type='range'] {
+  flex: 1;
+}
+
+.alpha-row output {
+  width: 46px;
+  text-align: right;
+  font-family: var(--vscode-editor-font-family);
+  font-size: 0.8em;
+  color: var(--vscode-descriptionForeground);
+}
+
+.popover-contrast {
+  min-height: 1.2em;
+  margin-bottom: 12px;
+  font-size: 0.82em;
+  color: var(--vscode-descriptionForeground);
+}
+
+.popover-actions {
+  display: flex;
+  gap: 6px;
+  justify-content: flex-end;
+}
+
+#popoverReset {
+  margin-right: auto;
+}

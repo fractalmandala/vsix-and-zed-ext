@@ -1,0 +1,153 @@
+{
+  "name": "oklch-lab",
+  "displayName": "OKLCH Lab",
+  "description": "Convert any colour between HEX, RGB(A), HSL(A) and OKLCH, and explore the OKLCH space with live gamut graphs.",
+  "version": "0.1.0",
+  "publisher": "Amritanshu Pandey",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other",
+    "Visualization"
+  ],
+  "keywords": [
+    "oklch",
+    "color",
+    "colour",
+    "converter",
+    "hex",
+    "rgb",
+    "hsl",
+    "gamut",
+    "p3",
+    "design"
+  ],
+  "main": "./out/extension.js",
+  "activationEvents": [],
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "oklch-lab-container",
+          "title": "OKLCH Lab",
+          "icon": "media/icon.svg"
+        }
+      ],
+      "panel": [
+        {
+          "id": "oklch-lab-panel-container",
+          "title": "OKLCH Lab",
+          "icon": "media/icon.svg"
+        }
+      ]
+    },
+    "views": {
+      "oklch-lab-container": [
+        {
+          "type": "webview",
+          "id": "oklch-lab.view",
+          "name": ""
+        }
+      ],
+      "oklch-lab-panel-container": [
+        {
+          "type": "webview",
+          "id": "oklch-lab.panelView",
+          "name": ""
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "oklch-lab.toggleMaximize",
+        "title": "OKLCH Lab: Toggle Maximized",
+        "icon": "$(screen-full)"
+      },
+      {
+        "command": "oklch-lab.openInEditor",
+        "title": "OKLCH Lab: Open in Editor Tab",
+        "icon": "$(go-to-file)"
+      },
+      {
+        "command": "oklch-lab.convertSelection",
+        "title": "OKLCH Lab: Convert Color…"
+      },
+      {
+        "command": "oklch-lab.loadSelection",
+        "title": "OKLCH Lab: Open Selected Color in OKLCH Lab"
+      },
+      {
+        "command": "oklch-lab.insertColor",
+        "title": "OKLCH Lab: Insert Current Color…"
+      }
+    ],
+    "menus": {
+      "view/title": [
+        {
+          "command": "oklch-lab.openInEditor",
+          "when": "view == oklch-lab.view || view == oklch-lab.panelView",
+          "group": "navigation@1"
+        },
+        {
+          "command": "oklch-lab.toggleMaximize",
+          "when": "view == oklch-lab.view || view == oklch-lab.panelView",
+          "group": "navigation@2"
+        }
+      ],
+      "editor/context": [
+        {
+          "command": "oklch-lab.convertSelection",
+          "when": "editorTextFocus && !editorReadonly",
+          "group": "9_oklchlab@1"
+        },
+        {
+          "command": "oklch-lab.loadSelection",
+          "when": "editorTextFocus && editorHasSelection",
+          "group": "9_oklchlab@2"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "OKLCH Lab",
+      "properties": {
+        "oklchLab.syntax": {
+          "type": "string",
+          "enum": [
+            "legacy",
+            "modern"
+          ],
+          "default": "legacy",
+          "enumDescriptions": [
+            "Comma syntax with alpha variants: rgba(1, 2, 3, 0.5), hsla(1, 2%, 3%, 0.5)",
+            "Space syntax with a slash for alpha: rgb(1 2 3 / 0.5), hsl(1 2% 3% / 0.5)"
+          ],
+          "description": "How rgb() and hsl() are written."
+        },
+        "oklchLab.hexUppercase": {
+          "type": "boolean",
+          "default": false,
+          "description": "Write hex colours in uppercase (#79AF75)."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run build",
+    "check": "tsc -p ./ --noEmit",
+    "test": "esbuild src/color.test.ts --bundle --platform=node --outfile=.test/color.test.js --log-level=warning && node --test .test/color.test.js",
+    "compile": "npm run check && node esbuild.js",
+    "watch": "node esbuild.js --watch",
+    "build": "npm run check && node esbuild.js --production",
+    "package": "npm run test && npm run build && npx @vscode/vsce package --no-dependencies --allow-missing-repository"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/vscode": "^1.85.0",
+    "@vscode/vsce": "^3.0.0",
+    "esbuild": "^0.25.0",
+    "typescript": "^5.4.0"
+  },
+  "icon": "media/thumbnail.png"
+}

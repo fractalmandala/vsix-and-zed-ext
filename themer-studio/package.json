@@ -1,0 +1,81 @@
+{
+  "name": "themer-studio",
+  "displayName": "Fractal Themer Studio",
+  "description": "Visually edit a VS Code color theme JSON, test colors live, and export installable themes.",
+  "version": "0.2.2",
+  "publisher": "Amritanshu Pandey",
+  "author": "Amritanshu Pandey",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Themes",
+    "Other"
+  ],
+  "keywords": [
+    "theme",
+    "color",
+    "palette",
+    "workbench",
+    "theme editor"
+  ],
+  "activationEvents": [
+    "onCommand:fractalThemeStudio.open",
+    "onCommand:fractalThemeStudio.exportTheme",
+    "onCommand:fractalThemeStudio.installTheme"
+  ],
+  "main": "./src/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "fractalThemeStudio.open",
+        "title": "Fractal Theme Studio: Open Editor",
+        "category": "Fractal Theme Studio"
+      },
+      {
+        "command": "fractalThemeStudio.exportTheme",
+        "title": "Fractal Theme Studio: Export Theme JSON...",
+        "category": "Fractal Theme Studio"
+      },
+      {
+        "command": "fractalThemeStudio.installTheme",
+        "title": "Fractal Theme Studio: Install as Theme Extension...",
+        "category": "Fractal Theme Studio"
+      }
+    ],
+    "menus": {
+      "editor/title": [
+        {
+          "command": "fractalThemeStudio.open",
+          "when": "resourceFilename =~ /-color-theme\\.json$/",
+          "group": "navigation"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "Fractal Theme Studio",
+      "properties": {
+        "fractalThemeStudio.defaultThemePath": {
+          "type": "string",
+          "default": "",
+          "description": "Absolute path to the theme JSON to open when no theme file is active. Leave empty to use the bundled sample theme."
+        }
+      }
+    },
+    "themes": [
+      {
+        "label": "Fractal Studio Sample",
+        "uiTheme": "vs-dark",
+        "path": "./themes/fractal-studio-sample-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "package": "vsce package --allow-missing-repository --out fractal-theme-studio-0.2.2.vsix"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.2.2"
+  }
+}

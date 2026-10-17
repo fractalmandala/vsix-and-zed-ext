@@ -1,0 +1,47 @@
+{
+  "name": "{{name}}",
+  "displayName": "{{AppName}}",
+  "description": "{{AppName}} — a webview side panel that maximizes to full width.",
+  "version": "0.1.0",
+  "publisher": "{{publisher}}",
+  "engines": { "vscode": "^1.85.0" },
+  "categories": ["Other"],
+  "main": "./out/extension.js",
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        { "id": "{{name}}-container", "title": "{{AppName}}", "icon": "media/icon.svg" }
+      ],
+      "panel": [
+        { "id": "{{name}}-panel-container", "title": "{{AppName}}", "icon": "media/icon.svg" }
+      ]
+    },
+    "views": {
+      "{{name}}-container": [
+        { "type": "webview", "id": "{{name}}.view", "name": "" }
+      ],
+      "{{name}}-panel-container": [
+        { "type": "webview", "id": "{{name}}.panelView", "name": "" }
+      ]
+    },
+    "commands": [
+      { "command": "{{name}}.toggleMaximize", "title": "{{AppName}}: Toggle Maximized", "icon": "$(screen-full)" },
+      { "command": "{{name}}.newItem", "title": "{{AppName}}: New Item", "icon": "$(add)" }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run build",
+    "check": "tsc -p ./ --noEmit",
+    "compile": "npm run check && node esbuild.js",
+    "watch": "node esbuild.js --watch",
+    "build": "npm run check && node esbuild.js --production",
+    "package": "npm run build && npx @vscode/vsce package --no-dependencies"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/vscode": "^1.85.0",
+    "@vscode/vsce": "^3.0.0",
+    "esbuild": "^0.25.0",
+    "typescript": "^5.4.0"
+  }
+}

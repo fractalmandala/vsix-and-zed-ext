@@ -1,0 +1,115 @@
+{
+  "name": "Hungnotes",
+  "displayName": "Hungnotes",
+  "description": "Minimalist raw markdown scratchpad and daily notes extension for VS Code",
+  "version": "0.1.0",
+  "publisher": "Amritanshu Pandey",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other",
+    "Productivity"
+  ],
+  "keywords": [
+    "notes",
+    "markdown",
+    "scratchpad",
+    "minimal",
+    "daily-notes"
+  ],
+  "main": "./out/extension.js",
+  "activationEvents": [
+    "onView:hungnotes.view",
+    "onView:hungnotes.panelView"
+  ],
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "hungnotes-container",
+          "title": "Hungnotes",
+          "icon": "media/icon.svg"
+        }
+      ],
+      "panel": [
+        {
+          "id": "hungnotes-panel-container",
+          "title": "Hungnotes",
+          "icon": "media/icon.svg"
+        }
+      ]
+    },
+    "views": {
+      "hungnotes-container": [
+        {
+          "type": "webview",
+          "id": "hungnotes.view",
+          "name": ""
+        }
+      ],
+      "hungnotes-panel-container": [
+        {
+          "type": "webview",
+          "id": "hungnotes.panelView",
+          "name": ""
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "hungnotes.newNote",
+        "title": "Hungnotes: New Note",
+        "icon": "$(add)"
+      },
+      {
+        "command": "hungnotes.openCurrentInEditor",
+        "title": "Hungnotes: Open Current Note in VS Code Editor",
+        "icon": "$(go-to-file)"
+      },
+      {
+        "command": "hungnotes.openNotesFolder",
+        "title": "Hungnotes: Open Notes Directory",
+        "icon": "$(folder)"
+      }
+    ],
+    "configuration": {
+      "title": "Hungnotes",
+      "properties": {
+        "hungnotes.notesDirectory": {
+          "type": "string",
+          "default": "",
+          "description": "Custom directory path to store markdown notes. Defaults to ~/.hungnotes if empty."
+        },
+        "hungnotes.dateFormat": {
+          "type": "string",
+          "enum": [
+            "YYYY-MM-DD",
+            "YYYY-DD-MM"
+          ],
+          "default": "YYYY-MM-DD",
+          "description": "Date format used for auto-naming new markdown notes."
+        },
+        "hungnotes.defaultTemplate": {
+          "type": "string",
+          "default": "## raw notes\\n\\n",
+          "description": "Default markdown template body populated in new notes."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./ && node esbuild.js",
+    "watch": "node esbuild.js --watch",
+    "build": "node esbuild.js --production",
+    "package": "npx @vscode/vsce package --no-dependencies"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/vscode": "^1.80.0",
+    "@vscode/vsce": "^2.24.0",
+    "esbuild": "^0.20.0",
+    "typescript": "^5.3.3"
+  }
+}

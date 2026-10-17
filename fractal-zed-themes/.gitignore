@@ -1,0 +1,6 @@
+__pycache__/
+node_modules
+out
+.test
+*.vsix
+.DS_Store
