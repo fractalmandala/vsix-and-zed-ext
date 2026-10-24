@@ -18,12 +18,20 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const source = path.resolve(root, '..', 'registry.json');
+// The canonical registry lives in the fractalstyler package. The extension
+// sits in vsix-and-zed-ext/, so the package is two levels up; the sibling
+// copy is kept as a fallback for the older flat layout.
+const candidates = [
+  path.resolve(root, '..', '..', 'packages', 'fractalstyler', 'registry.json'),
+  path.resolve(root, '..', 'registry.json')
+];
+const source = candidates.find((f) => fs.existsSync(f));
 const target = path.join(root, 'media', 'registry.json');
 const check = process.argv.includes('--check');
 
-if (!fs.existsSync(source)) {
-  console.error(`✕ ${source} not found — run \`pnpm registry\` in fractalstyler first.`);
+if (!source) {
+  console.error(`✕ registry.json not found — looked in:\n  ${candidates.join('\n  ')}`);
+  console.error('  Run `pnpm registry` in packages/fractalstyler first.');
   process.exit(1);
 }
 

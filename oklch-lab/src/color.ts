@@ -288,10 +288,36 @@ export function formatHsl(col: Oklch, opts: FormatOptions = DEFAULT_FORMAT): str
   return hasAlpha ? `hsla(${H}, ${S}%, ${L}%, ${alpha})` : `hsl(${H}, ${S}%, ${L}%)`;
 }
 
+/**
+ * The fractional form some tooling emits: hue as a 0-1 turn, saturation / lightness / alpha as
+ * 0-1, with no `%` or `deg` anywhere. The standalone page shows it beside `hsl()` so the alpha is
+ * always visible; the VS Code webview has no field for it.
+ */
+export function formatHsla(col: Oklch): string {
+  const [r, g, b] = toSrgbMapped(col).rgb;
+  const { h, s, l } = rgbToHsl(r, g, b);
+  return `hsla(${frac(h / 360)}, ${frac(s)}, ${frac(l)}, ${frac(col.a)})`;
+}
+
+/** 0-1 component: three decimals at most, one at least — `0.045`, `0.28`, `1.0`. */
+function frac(v: number): string {
+  const s = v.toFixed(3).replace(/0+$/, '');
+  return s.endsWith('.') ? `${s}0` : s;
+}
+
 export function formatOklch(col: Oklch): string {
   const alpha = col.a < 1 ? ` / ${num(col.a, 3)}` : '';
   // 5 decimals on L and C is the smallest precision that round-trips every 8-bit sRGB colour.
   return `oklch(${num(col.l, 5)} ${num(col.c, 5)} ${num(col.h, 2)}${alpha})`;
+}
+
+/**
+ * Rust / gpui syntax: `rgb(0xaaccdd)` when opaque, `rgba(0xaaccddff)` otherwise. Not one of
+ * `FORMATS`, since the VS Code webview has no field for it; the standalone page shows it.
+ */
+export function formatRust(col: Oklch, opts: FormatOptions = DEFAULT_FORMAT): string {
+  const hex = formatHex(col, opts).slice(1);
+  return hex.length === 8 ? `rgba(0x${hex})` : `rgb(0x${hex})`;
 }
 
 export type FormatId = 'hex' | 'rgb' | 'hsl' | 'oklch';
@@ -381,9 +407,16 @@ function parseFunctional(fn: string, body: string): Parsed | null {
     return { ...srgbToOklch(ch(t[0]), ch(t[1]), ch(t[2]), a), source: 'rgb' };
   }
   if (fn === 'hsl' || fn === 'hsla') {
-    const h = hueDeg(t[0]);
-    if (h === null || t[1].unit === 'deg' || t[2].unit === 'deg') return null;
-    const [r, g, b] = hslToRgb(h, clamp(t[1].n / 100, 0, 1), clamp(t[2].n / 100, 0, 1));
+    if (t[1].unit === 'deg' || t[2].unit === 'deg') return null;
+    // `hsla(0.045, 0.88, 0.48, 1)` is the fractional form: no `%`, every component 0-1, hue a
+    // turn rather than degrees. Anything with a `%` (or a hue above 1) is plain CSS.
+    const fractional =
+      !t[1].pct && !t[2].pct && !t[1].unit && !t[2].unit && t[0].n <= 1 && t[1].n <= 1 && t[2].n <= 1;
+    const h = fractional ? t[0].n * 360 : hueDeg(t[0]);
+    if (h === null) return null;
+    const s = fractional ? t[1].n : t[1].n / 100;
+    const l = fractional ? t[2].n : t[2].n / 100;
+    const [r, g, b] = hslToRgb(h, clamp(s, 0, 1), clamp(l, 0, 1));
     return { ...srgbToOklch(r, g, b, a), source: 'hsl' };
   }
   if (fn === 'oklch') {
@@ -397,13 +430,30 @@ function parseFunctional(fn: string, body: string): Parsed | null {
 }
 
 /**
+ * Rust / gpui `rgb(0xRRGGBB)` and `rgba(0xRRGGBBAA)`. The argument is a `u32`, read the way gpui
+ * reads it: `rgb(0xabc)` is `#000abc`, not shorthand. Underscore separators are allowed, as in Rust.
+ */
+function parseRust(fn: string, digits: string): Parsed | null {
+  const hex = digits.replace(/_/g, '');
+  if (!hex || hex.length > (fn === 'rgba' ? 8 : 6)) return null;
+  const v = parseInt(hex, 16);
+  const byte = (shift: number) => Math.floor(v / 2 ** shift) % 256 / 255;
+  return fn === 'rgba'
+    ? { ...srgbToOklch(byte(24), byte(16), byte(8), byte(0)), source: 'hex' }
+    : { ...srgbToOklch(byte(16), byte(8), byte(0)), source: 'hex' };
+}
+
+/**
  * Parse any supported colour string. Accepts hex (3/4/6/8 digits, `#` optional), `rgb[a]()`,
- * `hsl[a]()`, `oklch()` in legacy comma or modern space/slash syntax, and bare `r g b` / `r, g, b`
- * triplets (treated as 0-255 RGB). Returns `null` if it is none of those.
+ * `hsl[a]()`, `oklch()` in legacy comma or modern space/slash syntax, Rust / gpui
+ * `rgb(0xRRGGBB)` / `rgba(0xRRGGBBAA)`, and bare `r g b` / `r, g, b` triplets (treated as 0-255
+ * RGB). Returns `null` if it is none of those.
  */
 export function parseColor(input: string): Parsed | null {
   const s = input.trim().toLowerCase().replace(/;$/, '');
   if (!s) return null;
+  const rust = /^(rgba?)\(\s*0x([0-9a-f_]+)\s*\)$/.exec(s);
+  if (rust) return parseRust(rust[1], rust[2]);
   const fn = /^(rgba?|hsla?|oklch)\(\s*([^)]*?)\s*\)$/.exec(s);
   if (fn) return parseFunctional(fn[1], fn[2]);
   const hex = parseHex(s);

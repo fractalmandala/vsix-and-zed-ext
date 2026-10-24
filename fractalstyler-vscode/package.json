@@ -2,8 +2,8 @@
   "name": "fractalstyler-vscode",
   "displayName": "Fractalstyler VSCode",
   "description": "Canonical Sass styles viewer and editor in the VS Code sidebar & panel",
-  "version": "0.4.0",
-  "publisher": "Amritanshu Pandey",
+  "version": "0.4.1",
+  "publisher": "fractaldesign",
   "repository": {
     "type": "git",
     "url": "https://github.com/fractalmandala/vsix-and-zed-ext"

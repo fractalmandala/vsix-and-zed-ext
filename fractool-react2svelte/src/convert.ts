@@ -1049,12 +1049,22 @@ function assemble(conv: Converted, all: Converted[], mod: ReturnType<typeof modu
 			if (!imp.specifiers.length) import_lines.push(gen(imp)); // side-effect import
 			continue;
 		}
-		const copy = t.cloneNode(imp, true);
-		copy.specifiers = specs.map((s) => t.cloneNode(s, true));
 		const src = imp.source.value;
-		const def = specs.find((s) => t.isImportDefaultSpecifier(s));
-		if (def && jsx_tags.has(def.local.name) && /^\.\.?\//.test(src) && !/\.(svelte|css|json|svg|png)$/.test(src)) copy.source = t.stringLiteral(src.replace(/\.(jsx|tsx|js|ts)$/, '') + '.svelte');
-		import_lines.push(gen(copy));
+		const comp_specs = specs.filter((s) => t.isImportSpecifier(s) && jsx_tags.has(s.local.name) && is_component_name(s.local.name) && /^\.\.?\//.test(src));
+		const non_comp_specs = specs.filter((s) => !comp_specs.includes(s));
+
+		for (const cs of comp_specs) {
+			const svelte_src = src.replace(/\.(jsx|tsx|js|ts)$/, '') + (src.endsWith('.svelte') ? '' : '.svelte');
+			import_lines.push(`import ${cs.local.name} from '${svelte_src}';`);
+		}
+
+		if (non_comp_specs.length) {
+			const copy = t.cloneNode(imp, true);
+			copy.specifiers = non_comp_specs.map((s) => t.cloneNode(s, true));
+			const def = non_comp_specs.find((s) => t.isImportDefaultSpecifier(s));
+			if (def && jsx_tags.has(def.local.name) && /^\.\.?\//.test(src) && !/\.(svelte|css|json|svg|png)$/.test(src)) copy.source = t.stringLiteral(src.replace(/\.(jsx|tsx|js|ts)$/, '') + '.svelte');
+			import_lines.push(gen(copy));
+		}
 	}
 	for (const other of all) if (other !== conv && word(other.name).test(`${body}\n${markup}`)) import_lines.push(`import ${other.name} from './${other.name}.svelte';`);
 

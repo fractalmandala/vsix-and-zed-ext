@@ -6,8 +6,10 @@ import {
   format,
   formatHex,
   formatHsl,
+  formatHsla,
   formatOklch,
   formatRgb,
+  formatRust,
   inGamut,
   maxChroma,
   parseColor,
@@ -115,6 +117,37 @@ test('alpha formatting uses rgba/hsla (legacy) or slash (modern)', () => {
   assert.match(formatOklch(p), /\/ 0\.5\)$/);
 });
 
+test('formatHsla writes the fractional 0-1 form and round-trips', () => {
+  // hue as a turn, saturation / lightness / alpha as 0-1: `hsla(0.045, 0.88, 0.48, 1.0)`.
+  assert.equal(formatHsla(must('#79af75')), 'hsla(0.322, 0.266, 0.573, 1.0)');
+  assert.equal(formatHsla(must('hsl(43.2, 28%, 94%)')), 'hsla(0.12, 0.28, 0.94, 1.0)');
+  assert.equal(formatHsla(must('hsl(16.2, 88%, 48%)')), 'hsla(0.045, 0.88, 0.48, 1.0)');
+  assert.equal(formatHsla(must('oklch(0.7 0.1 143 / 0.5)')), 'hsla(0.323, 0.263, 0.572, 0.5)');
+  // It parses back to the colour it came from — the field must read its own output.
+  for (const s of ['#000000', '#ffffff', '#123456', '#a3ccdd80', '#79af75']) {
+    const p = must(s);
+    const back = must(formatHsla(p));
+    close(back.l, p.l, 0.005);
+    close(back.a, p.a, 0.005);
+    assert.equal(formatHex(back), s);
+  }
+  assert.match(formatHsla(must('oklch(0.7 0.1 143 / 0.5)')), /^hsla\(0\.\d+, 0\.\d+, 0\.\d+, 0\.5\)$/);
+});
+
+test('fractional hsla() parses as 0-1 components, not degrees and percent', () => {
+  const css = must('hsl(43.2, 28%, 94%)');
+  const frac = must('hsla(0.12, 0.28, 0.94, 1.0)');
+  close(frac.l, css.l, 0.005);
+  close(frac.h, css.h, 0.5);
+  assert.equal(formatHex(frac), formatHex(css));
+  // A `%` anywhere still means plain CSS degrees and percent.
+  const pct = must('hsla(200, 50%, 50%, 0.5)');
+  assert.equal(formatHsl(pct, { syntax: 'legacy', hexUpper: false }), 'hsla(200, 50%, 50%, 0.5)');
+  close(pct.a, 0.5, 1e-9);
+  // Hue above 1 cannot be a turn, so it stays degrees and the saturation stays a percent.
+  close(must('hsl(120, 0.5, 0.5)').c, 0, 0.01);
+});
+
 test('hex -> oklch -> hex is lossless for all 8-bit sRGB samples', () => {
   let n = 0;
   for (let r = 0; r < 256; r += 5) {
@@ -210,4 +243,30 @@ test('COLOR_LITERAL finds colours in source text', () => {
   const src = 'a { color: #79af75; b: rgba(1, 2, 3, .5); c: hsl(10 20% 30%); d: oklch(0.7 0.1 143 / 0.5); e: #fff }';
   const found = src.match(COLOR_LITERAL);
   assert.deepEqual(found, ['#79af75', 'rgba(1, 2, 3, .5)', 'hsl(10 20% 30%)', 'oklch(0.7 0.1 143 / 0.5)', '#fff']);
+});
+
+test('Rust / gpui rgb(0x…) and rgba(0x…) parse as u32 colours', () => {
+  assert.equal(formatHex(must('rgb(0x79af75)')), '#79af75');
+  assert.equal(formatHex(must('RGB(0x79AF75)')), '#79af75');
+  assert.equal(formatHex(must('rgb(0x79_af_75)')), '#79af75');
+  assert.equal(formatHex(must('rgba(0xa3ccddff)')), '#a3ccdd');
+  assert.equal(formatHex(must('rgba(0xa3ccdd80)')), '#a3ccdd80');
+  close(must('rgba(0xa3ccdd80)').a, 128 / 255, 1e-9);
+  // A u32, as gpui reads it: short literals are leading zeros, not CSS shorthand.
+  assert.equal(formatHex(must('rgb(0xabc)')), '#000abc');
+  assert.equal(formatHex(must('rgba(0xff)')), '#000000');
+  assert.equal(formatHex(must('rgba(0x80)')), '#00000080');
+  for (const bad of ['rgb(0x1234567)', 'rgba(0x123456789)', 'rgb(0x)', 'rgb(0xgg0000)', 'rgb(0x12, 0x34)']) {
+    assert.equal(parseColor(bad), null, bad);
+  }
+});
+
+test('formatRust writes rgb() when opaque and rgba() otherwise, and round-trips', () => {
+  assert.equal(formatRust(must('#79af75')), 'rgb(0x79af75)');
+  assert.equal(formatRust(must('#79af75cc')), 'rgba(0x79af75cc)');
+  assert.equal(formatRust(must('#79af75'), { syntax: 'legacy', hexUpper: true }), 'rgb(0x79AF75)');
+  for (const s of ['#000000', '#ffffff', '#123456', '#a3ccdd80']) {
+    assert.equal(formatHex(must(formatRust(must(s)))), s);
+  }
+  assert.ok('fill: rgb(0xaaccdd)'.match(COLOR_LITERAL)?.includes('rgb(0xaaccdd)'));
 });

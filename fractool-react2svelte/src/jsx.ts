@@ -366,7 +366,7 @@ function attributes(node: t.JSXOpeningElement, tag: string, ctx: JsxCtx): Attrs 
 				out.attrs.push(`style={${gen_inline(e)}}`);
 			} else if (t.isBooleanLiteral(e)) {
 				if (e.value) out.attrs.push(out_name);
-				else if (!dom) out.attrs.push(`${out_name}={false}`);
+				else if (!dom || out_name === 'draggable' || out_name === 'contenteditable' || out_name === 'spellcheck' || out_name.startsWith('aria-')) out.attrs.push(`${out_name}={false}`);
 			} else if (t.isStringLiteral(e)) out.attrs.push(attr_string(out_name, e.value));
 			else if (t.isIdentifier(e) && e.name === out_name) out.attrs.push(`{${e.name}}`);
 			else out.attrs.push(`${out_name}={${gen_inline(expr)}}`);

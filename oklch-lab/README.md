@@ -12,6 +12,7 @@ Four fields - `OKLCH`, `HEX`, `RGB`, `HSL` - are all editable. Type or paste **a
 | RGB | `rgb(121, 175, 117)` `rgba(121,175,117,.5)` `rgb(121 175 117 / 50%)` `rgb(47% 69% 46%)` `121 175 117` |
 | HSL | `hsl(116, 26%, 57%)` `hsla(116 26% 57% / .5)` hue in `deg` `rad` `grad` `turn` |
 | OKLCH | `oklch(0.7 0.1 143)` `oklch(70% 25% 143deg / 0.5)` |
+| Rust (gpui) | `rgb(0x79af75)` `rgba(0x79af75cc)` `rgb(0x79_af_75)` |
 | Names | `rebeccapurple`, `tomato`, … (anything the browser knows) |
 
 - **Lossless round trip.** Every 8-bit sRGB colour goes `hex → oklch → hex` unchanged (tested on 140 000 colours) — OKLCH is printed with 5 decimals on L and C, the smallest precision that guarantees it.

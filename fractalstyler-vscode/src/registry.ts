@@ -6,7 +6,7 @@ import * as vscode from 'vscode';
  * One completable class name, reduced from a registry row.
  *
  * The registry stores selectors, not class-attribute tokens: `.card`,
- * `.gap-xs`, `.row.xcenter`, `.card[data-variant="primary"]`, `a.btn`,
+ * `.gap-xs`, `.row.xcenter`, `.el-variants[data-variant="primary"]`, `a.btn`,
  * `button`. Only the first two forms are things you type inside `class="…"`, so
  * everything else is either reduced to its modifier segment or dropped.
  */
@@ -32,7 +32,7 @@ export interface ClassEntry {
  *   .row.xcenter                       -> xcenter        (modifier of .row)
  *   a.btn                              -> btn            (element + class)
  *   button                             -> null           (bare element)
- *   .card[data-variant="primary"]      -> null           (attribute variant)
+ *   .el-variants[data-variant="x"]     -> null           (attribute variant)
  *   .app-shell.open .sidebar-left      -> null           (compound/descendant)
  */
 export function tokenFor(selector: string): string | null {
@@ -72,6 +72,7 @@ function layerName(layer: string): string {
     L3: 'L3 layouts',
     L4: 'L4 shells',
     L5: 'L5 visuals & interactions',
+    L6: 'L6 element axes',
     Custom: 'custom'
   };
   return map[layer] ?? layer;
